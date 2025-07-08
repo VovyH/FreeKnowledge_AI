@@ -1,4 +1,10 @@
 # 🔍FreeKnowledge AI
+![GitHub License](https://img.shields.io/github/license/VovyH/FreeKnowledge_AI?tab=MIT-1-ov-file)
+![PyPI - Format](https://img.shields.io/pypi/format/FreeKnowledge-AI)
+![GitHub stars](https://img.shields.io/github/stars/VovyH/FreeKnowledge_AI)
+![PyPI - License](https://img.shields.io/pypi/l/FreeKnowledge-AI?color=purple)
+![书生铺语](https://img.shields.io/badge/书生·浦语-蓝色?color=blue)
+
 ✨An agent that provides **free** and **flexible** access to external knowledge！！
 <div align="center">
      <img src="https://github.com/user-attachments/assets/df699fb5-8682-4b5a-97d4-c66c45a324af"/>
