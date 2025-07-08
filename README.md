@@ -3,7 +3,7 @@
 ![PyPI - Format](https://img.shields.io/pypi/format/FreeKnowledge-AI)
 ![GitHub stars](https://img.shields.io/github/stars/VovyH/FreeKnowledge_AI)
 ![PyPI - License](https://img.shields.io/pypi/l/FreeKnowledge-AI?color=purple)
-![书生铺语](https://img.shields.io/badge/书生·浦语-蓝色?color=blue)
+![书生·铺语大模型](https://img.shields.io/badge/书生·浦语大模型-蓝色?color=blue)
 
 ✨An agent that provides **free** and **flexible** access to external knowledge！！
 <div align="center">
