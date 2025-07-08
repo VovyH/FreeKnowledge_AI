@@ -2,9 +2,11 @@
 ✨An agent that provides **free** and **flexible** access to external knowledge.
 
 ### 📖 1. Introduction
+
 Currently, there are only a few interfaces such as DuckDuckGO that can be used to obtain external knowledge for free. These interfaces are **difficult to obtain complete external knowledge** and are very cumbersome and **cannot obtain external knowledge related to the original problem**. Most of the interfaces with better effects are **relatively expensive**, such as Bocha, Google and other APIs. Therefore, we open-source a **free** and **flexible** external knowledge interface - **FreeKnowledge AI** 。
 
 ### 😀 2. Simple & Free
+
 - You only need to download the knowledge_AI dependency to use it, which is very convenient！！
 ```shell
 pip install FreeKnowledge_AI
@@ -36,6 +38,7 @@ print(results)
 </div>
 
 ### ⚡3. Flexible
+
 We allow passing in a variety of parameters to better control the output, including:
 - `question`: Question entered by the user (Required)。
 - `flag`: Whether to use a large model to extract the core content of crawled external knowledge (Default True)。
@@ -68,7 +71,7 @@ print(results)
      <img src="https://github.com/user-attachments/assets/c7cd31bf-1732-476b-a4ca-d4c33529f644"/>
 </div>
 
-## 6. 👇Citation
+## 5. 👇Citation
 If you think this project is useful to you, please click star and cite this project。
 
 ```bibtex
