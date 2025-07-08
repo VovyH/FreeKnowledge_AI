@@ -9,7 +9,7 @@ Currently, there are only a few interfaces such as DuckDuckGO that can be used t
 
 - You only need to download the knowledge_AI dependency to use it, which is very convenient！！
 ```shell
-pip install FreeKnowledge_AI
+pip install FreeKnowledge-AI==0.1.0
 ```
 
 - A **simple** example of acquiring external knowledge:
