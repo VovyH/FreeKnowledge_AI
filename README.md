@@ -1,5 +1,9 @@
 # 🔍FreeKnowledge AI
-✨An agent that provides **free** and **flexible** access to external knowledge.
+✨An agent that provides **free** and **flexible** access to external knowledge！！
+<div align="center">
+     <img src="https://github.com/user-attachments/assets/df699fb5-8682-4b5a-97d4-c66c45a324af"/>
+</div>
+
 
 ### 1. 📖Introduction
 
