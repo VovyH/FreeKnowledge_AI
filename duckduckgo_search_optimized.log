@@ -1,0 +1,52 @@
+2025-07-08 13:30:59,811 - INFO - SuesCenter 初始化完成
+2025-07-08 13:31:03,588 - INFO - 开始处理问题: 2024年上海工程技术大学研究生复试分数线
+2025-07-08 13:31:04,249 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:31:04,250 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:31:04,856 - DEBUG - Loading model cost 0.607 seconds.
+2025-07-08 13:31:04,857 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:31:06,933 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:31:06,940 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c19709a263774/page.htm)
+2025-07-08 13:31:07,365 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MzA5ODA0NjU4NA==&mid=2650765872&idx=1&sn=f65eed73ad170363956a0aa58785aba0&chksm=889c5d27bfebd4319926da2d21748a00a44a55f39ac1d8ba87d7ab078c173bacc56d8eeffb72&scene=27)
+2025-07-08 13:31:07,428 - INFO - 成功处理结果: ...考研复试分数线公布! #上海中医药大学考研 #上海工程技术大学... (https://www.douyin.com/video/7346836874415066409)
+2025-07-08 13:31:07,448 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952664&signature=0425d1ac3eb8b8f855916e99044895c2)
+2025-07-08 13:31:07,466 - INFO - 成功处理结果: 2024年上海工程技术大学研究生分数线一览表(含2023年历年)_4221... (http://www.e4221.com/kaoyan/fenshuxian/31781.html)
+2025-07-08 13:31:07,509 - INFO - 成功处理结果: 2024上海工程技术大学各专业考研分数线一览表 历年复试线汇总... (http://m.gaosan.com/gaokao/819693.html)
+2025-07-08 13:31:07,523 - INFO - 成功处理结果: 2024上海工程技术大学(0786)考研分数线-2024上海工程技术大学... (https://yz.kaoyan365.cn/fenshuxian/list_sues_2024_03_0786_1.html)
+2025-07-08 13:31:07,541 - INFO - 成功处理结果: 上海交大、上电、上中医、工程大、上科大2024年考研复试分数线... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793661474386221413%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793661474386221413%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751952664&signature=4d1790d744e109ba9e27a8f310be088f)
+2025-07-08 13:31:07,542 - INFO - 问题处理完成: 2024年上海工程技术大学研究生复试分数线, 结果数: 9
+2025-07-08 14:10:08,521 - INFO - 开始处理问题: & D:/miniconda3/envs/sues_game/python.exe e:/我的论文和代码/Chemotherapy/ReNeLLM-main/sues_rag/sues_knowledge/sues_center.py
+2025-07-08 14:10:10,515 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 14:10:11,610 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 14:10:12,700 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 14:10:12,818 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 14:10:13,873 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 14:10:14,921 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 14:10:17,462 - WARNING - 获取网页内容失败 (尝试 1/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 14:10:18,600 - WARNING - 获取网页内容失败 (尝试 2/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 14:10:19,734 - WARNING - 获取网页内容失败 (尝试 3/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 14:10:19,788 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-08 14:10:20,841 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-08 14:10:21,891 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/jiangshuanshuan/article/details/106114335
+2025-07-08 14:10:21,892 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 14:10:21,892 - INFO - 成功处理结果: Miniconda3搭建python开发环境_miniconda3 py37-CSDN博客 (https://blog.csdn.net/jiangshuanshuan/article/details/106114335)
+2025-07-08 14:10:21,978 - WARNING - 获取网页内容失败 (尝试 1/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 14:10:23,073 - WARNING - 获取网页内容失败 (尝试 2/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 14:10:24,160 - WARNING - 获取网页内容失败 (尝试 3/3): 403 Client Error: Forbidden for url: https://zhuanlan.zhihu.com/p/717540911
+2025-07-08 14:10:24,161 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 14:10:24,161 - INFO - 成功处理结果: python-miniconda3环境配置与使用 - 知乎 (https://zhuanlan.zhihu.com/p/717540911)
+2025-07-08 14:10:24,205 - INFO - 成功处理结果: 安装Miniconda3并创建python虚拟环境_51CTO博客_python 安装虚拟... (https://blog.51cto.com/u_15127669/4375415)
+2025-07-08 14:10:24,313 - INFO - 成功处理结果: 使用Conda + Pip 创建 Python 开发环境的完整教程本教程按照图片... (https://juejin.cn/post/7484206491659485221)
+2025-07-08 14:10:24,363 - WARNING - 获取网页内容失败 (尝试 1/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 14:10:25,417 - WARNING - 获取网页内容失败 (尝试 2/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 14:10:26,478 - WARNING - 获取网页内容失败 (尝试 3/3): 521 Server Error:  for url: https://blog.csdn.net/cocogogogo/article/details/147375050
+2025-07-08 14:10:26,478 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 14:10:26,478 - INFO - 成功处理结果: VS Code 远程连接服务器:Anaconda 环境与 Python/Jupyter 运行全指南... (https://blog.csdn.net/cocogogogo/article/details/147375050)
+2025-07-08 14:10:26,612 - WARNING - 获取网页内容失败 (尝试 1/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 14:10:27,758 - WARNING - 获取网页内容失败 (尝试 2/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 14:10:28,908 - WARNING - 获取网页内容失败 (尝试 3/3): 468 Client Error:  for url: https://segmentfault.com/q/1010000043272627/a-1020000043272629
+2025-07-08 14:10:28,909 - ERROR - 提取过程中出错: 输入必须是字符串
+2025-07-08 14:10:28,909 - INFO - 成功处理结果: python - 在 sublime text 3 中使用 conda 环境 - SegmentFault... (https://segmentfault.com/q/1010000043272627/a-1020000043272629)
+2025-07-08 14:10:28,973 - INFO - 成功处理结果: 【深度学习_环境(五)】miniconda + jupyter 安装教程+使用方法 - 学 ... (https://www.cnblogs.com/chacaxx/p/16552195.html)
+2025-07-08 14:10:29,462 - INFO - 成功处理结果: 问题:为何每次终端启动都需要执行 source ~/miniconda3/bin/... (https://ask.csdn.net/questions/8491386)
+2025-07-08 14:10:29,682 - INFO - 成功处理结果: 运用miniconda环境,vscode运行并切换jupyter内核 - 哔哩哔哩 (https://www.bilibili.com/opus/839762906369228808)
+2025-07-08 14:10:29,682 - INFO - 问题处理完成: & D:/miniconda3/envs/sues_game/python.exe e:/我的论文和代码/Chemotherapy/ReNeLLM-main/sues_rag/sues_knowledge/sues_center.py, 结果数: 9

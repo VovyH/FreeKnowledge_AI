@@ -1,0 +1,41 @@
+2025-07-08 13:38:25,980 - INFO - SuesCenter 初始化完成
+2025-07-08 13:38:30,075 - INFO - 开始处理问题: 2024年上海工程技术大学硕士研究生复试分数线
+2025-07-08 13:38:31,180 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 13:38:31,181 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 13:38:31,830 - DEBUG - Loading model cost 0.650 seconds.
+2025-07-08 13:38:31,831 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 13:38:33,931 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://jcxy.sues.edu.cn/3a/8b/c26499a277131/page.htm)
+2025-07-08 13:38:33,938 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 13:38:34,354 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-08 13:38:34,455 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生复试分数线_上海工程技术大学研究生院... (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-08 13:38:34,471 - INFO - 成功处理结果: 2024考研上海工程技术大学各专业复试分数线已公布_四川中公考研 (http://sc.kaoyan365.cn/yanzhaoxinxi/sckyfsx/47506.html)
+2025-07-08 13:38:34,493 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751953111&signature=25c621d1bace3e4212d2cff5054edc6c)
+2025-07-08 13:38:34,920 - INFO - 成功处理结果: 2024考研复试分数线 | 上海工程技术大学 (https://mp.weixin.qq.com/s?__biz=MzA3NTg1MTczNQ==&mid=2660121767&idx=2&sn=538d1fb90627dcc33c53a7e0986d1140&chksm=854e579db95599e995e025b0f1183b90388263bd57000060cf990c3d8f67d1306580dcdb1dd0&scene=27)
+2025-07-08 13:38:34,940 - INFO - 成功处理结果: 上海这些大学公布2024年考研复试分数线→ (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793657675520246079%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793657675520246079%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751953112&signature=83c302c62ba1d24d5f6924bad356614d)
+2025-07-08 13:38:34,941 - INFO - 问题处理完成: 2024年上海工程技术大学硕士研究生复试分数线, 结果数: 8
+2025-07-08 14:10:36,696 - INFO - SuesCenter 初始化完成
+2025-07-08 14:10:40,168 - INFO - 开始处理问题: 2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:10:40,982 - DEBUG - Building prefix dict from the default dictionary ...
+2025-07-08 14:10:40,983 - DEBUG - Loading model from cache C:\Users\ADMINI~1\AppData\Local\Temp\jieba.cache
+2025-07-08 14:10:41,619 - DEBUG - Loading model cost 0.637 seconds.
+2025-07-08 14:10:41,619 - DEBUG - Prefix dict has been built successfully.
+2025-07-08 14:10:43,465 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/06/5e/c20696a263774/page.htm)
+2025-07-08 14:10:43,472 - INFO - 成功处理结果: 上海工程技术大学2021年硕士研究生招生考试复试分数线要求 (https://ge.sues.edu.cn/2a/f3/c19709a207603/page.htm)
+2025-07-08 14:10:43,485 - INFO - 成功处理结果: 上海工程技术大学2024年硕士研究生招生考试复试分数线要求 (http://sh.kaoyan365.cn/yanzhaoxinxi/shkyfsx/54991.html)
+2025-07-08 14:10:43,995 - INFO - 成功处理结果: 刚刚!上海工程技术大学2024年硕士研究生招生考试复试分数线公布 (https://mp.weixin.qq.com/s?__biz=MjM5NjI2MjMzOQ==&mid=2649457465&idx=1&sn=48760af368b1f0b9f919a01d7851dec6&chksm=bef4db95898352837a3ee808e57b1857e4aa7c7f6c58e9d0faa2b005d48aab0ab600ded52beb&scene=27)
+2025-07-08 14:10:44,091 - INFO - 成功处理结果: ...硕士研究生复试分数线_上海工程技术大学研究生院 - 中国考研网 (http://www.chinakaoyan.com/graduate/info/nid/544303/schoolID/23.shtml)
+2025-07-08 14:10:44,109 - INFO - 成功处理结果: 「重磅!」2024年上海工程技术大学考研专业分数线及历年复试线全... (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1808231521985871134%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1808231521985871134%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751955041&signature=6dac32eabfdeb1e1cc414adcbfe57a6f)
+2025-07-08 14:10:44,200 - INFO - 成功处理结果: ...上政2024年考研复试分数线公布→_社会广角_民生频道_上海市... (https://www.jiading.gov.cn/mspd/shgj/content_877741)
+2025-07-08 14:10:44,216 - INFO - 成功处理结果: 上海这些大学公布2024年考研复试分数线→ (https://wappass.baidu.com/static/captcha/tuxing.html?ak=572be823e2f50ea759a616c060d6b9f1&backurl=https%3A%2F%2Fmbd.baidu.com%2Fnewspage%2Fdata%2Flandingsuper%3Fid%3D1793657675520246079%26wfr%3Dspider%26for%3Dpc%26third%3Dbaijiahao%26baijiahao_id%3D1793657675520246079%26c_source%3Dkunlun%26c_score%3D0.999100&timestamp=1751955042&signature=5e9ff2599aae5ca06e11eee9f7ac4fb8)
+2025-07-08 14:10:46,187 - INFO - 成功响应-1，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:10:49,845 - INFO - 成功响应-2，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:10:51,759 - INFO - 成功响应-3，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:10:52,410 - WARNING - API请求失败 (尝试 1/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 14:10:58,163 - WARNING - API请求失败 (尝试 2/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 14:11:03,903 - WARNING - API请求失败 (尝试 3/3): 400 Client Error: Bad Request for url: https://api.siliconflow.cn/v1/chat/completions
+2025-07-08 14:11:03,903 - ERROR - 达到最大重试次数，请求失败
+2025-07-08 14:11:05,692 - INFO - 成功响应-5，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:11:09,532 - INFO - 成功响应-6，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:11:11,566 - INFO - 成功响应-7，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:11:13,376 - INFO - 成功响应-8，问题：2024年上海工程技术大学研究生复试分数线
+2025-07-08 14:11:13,376 - INFO - 问题处理完成: 2024年上海工程技术大学研究生复试分数线, 结果数: 7
