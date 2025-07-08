@@ -1,11 +1,11 @@
 # 🔍FreeKnowledge AI
 ✨An agent that provides **free** and **flexible** access to external knowledge.
 
-### 📖 1. Introduction
+### 1. 📖Introduction
 
 Currently, there are only a few interfaces such as DuckDuckGO that can be used to obtain external knowledge for free. These interfaces are **difficult to obtain complete external knowledge** and are very cumbersome and **cannot obtain external knowledge related to the original problem**. Most of the interfaces with better effects are **relatively expensive**, such as Bocha, Google and other APIs. Therefore, we open-source a **free** and **flexible** external knowledge interface - **FreeKnowledge AI** 。
 
-### 😀 2. Simple & Free
+### 2. 😀Simple & Free
 
 - You only need to download the knowledge_AI dependency to use it, which is very convenient！！
 ```shell
@@ -37,7 +37,7 @@ print(results)
      <img src="https://github.com/user-attachments/assets/751c351f-9e9e-4959-ba92-4b3b1f811411"/>
 </div>
 
-### ⚡3. Flexible
+### 3. ⚡Flexible
 
 We allow passing in a variety of parameters to better control the output, including:
 - `question`: Question entered by the user (Required)。
@@ -52,7 +52,7 @@ We allow passing in a variety of parameters to better control the output, includ
 **Report errors:**
 > When you fail to obtain website content, don't worry, just wait a little longer, because some websites require verification. Another solution is to increase the number of retries and thread sleep time.
 
-### 📋 4. Complete Example
+### 4. 📋Complete Example
 
 ```python
 from FreeKnowledge_AI import knowledge_center
