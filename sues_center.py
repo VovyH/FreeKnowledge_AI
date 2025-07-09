@@ -11,33 +11,57 @@ from sues_config import config_args
 from sues_search_duckduckgo import logger  # 从搜索模块导入logger
 
 class SuesCenter:
+    """
+    SuesCenter 类负责与不同搜索引擎交互并处理搜索结果
+    支持DuckDuckGo和百度搜索引擎
+    """
+    
     def __init__(self):
-        """初始化问答中心"""
+        """初始化问答中心，配置API密钥和搜索引擎"""
         self.api_key = config_args.model_key
         self.search_engines = {
             "DUCKDUCKGO": DuckDuckGoSearchOptimized(),
             "BAIDU": BaiduSearchOptimized()
         }
         self.retry = config_args.chat_model_retry
-        logger.info("SuesCenter 初始化完成")  # 添加初始化日志
 
-    def get_response(self, prompt: str, flag: bool = True, mode: str = "DUCKDUCKGO", model: str = config_args.chat_model_type,
+    def get_response(self,
+                   prompt: str,
+                   flag: bool = True,
+                   mode: str = "DUCKDUCKGO", 
+                   model: str = config_args.chat_model_type,
                    base_url: str = config_args.model_base_url,
                    key: str = config_args.model_key,
                    max_web_results: int = config_args.max_web_results) -> List[Dict[str, Optional[str]]]:
+        """
+        获取问题的外部知识响应
+        
+        Args:
+            prompt: 用户输入的问题
+            flag: 是否使用大模型提取核心内容，默认为True
+            mode: 搜索引擎选择，支持"DUCKDUCKGO"和"BAIDU"，默认为"DUCKDUCKGO"
+            model: 大模型类型，默认从配置中获取
+            base_url: 大模型API基础URL，默认从配置中获取
+            key: API密钥，默认从配置中获取
+            max_web_results: 最大Web结果数，默认从配置中获取
+            
+        Returns:
+            包含外部知识的字典列表
+        """
         try:
-            logger.info(f"开始处理问题: {prompt}")  # 添加请求开始日志
+            logger.info(f"开始处理问题: {prompt}")
             search_engine = self.search_engines.get(mode)
             web_results = search_engine.search(prompt, max_results=max_web_results)
             
             if not web_results:
-                logger.warning(f"未获取到搜索结果: {prompt}")  # 添加无结果警告
+                logger.warning(f"未获取到搜索结果: {prompt}")
                 return []
             
             results = []
             if flag:
+                # 使用大模型提取核心内容
                 for i, web_result in enumerate(web_results):
-                    logger.debug(f"处理第{i+1}个搜索结果: {web_result['title']}")  # 添加详细处理日志
+                    logger.debug(f"处理第{i+1}个搜索结果: {web_result['title']}")
                     i += 1
                     formatted_prompt = summary_prompt.format(question = prompt, web_knowledge = web_result['core_content'])
                 
