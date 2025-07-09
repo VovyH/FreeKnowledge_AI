@@ -3,9 +3,11 @@ from matplotlib.pyplot import flag
 import requests
 import logging
 import time
+import os
 from typing import List, Dict, Optional
 from sues_search_duckduckgo import DuckDuckGoSearchOptimized
 from sues_search_baidu import BaiduSearchOptimized
+from UrlSpecificCrawler import UrlSpecificCrawler
 from prompt import summary_prompt
 from sues_config import config_args
 from sues_search_duckduckgo import logger  # 从搜索模块导入logger
@@ -13,7 +15,7 @@ from sues_search_duckduckgo import logger  # 从搜索模块导入logger
 class SuesCenter:
     """
     SuesCenter 类负责与不同搜索引擎交互并处理搜索结果
-    支持DuckDuckGo和百度搜索引擎
+    支持DuckDuckGo、百度搜索引擎和直接URL爬取
     """
     
     def __init__(self):
@@ -21,9 +23,11 @@ class SuesCenter:
         self.api_key = config_args.model_key
         self.search_engines = {
             "DUCKDUCKGO": DuckDuckGoSearchOptimized(),
-            "BAIDU": BaiduSearchOptimized()
+            "BAIDU": BaiduSearchOptimized(),
+            "URL_SPECIFIC": UrlSpecificCrawler()  # 添加URL专用爬虫
         }
         self.retry = config_args.chat_model_retry
+        logger.info("SUES问答中心初始化完成")
 
     def get_response(self,
                    prompt: str,
@@ -32,26 +36,40 @@ class SuesCenter:
                    model: str = config_args.chat_model_type,
                    base_url: str = config_args.model_base_url,
                    key: str = config_args.model_key,
-                   max_web_results: int = config_args.max_web_results) -> List[Dict[str, Optional[str]]]:
+                   max_web_results: int = config_args.max_web_results,
+                   specific_url: Optional[str] = None) -> List[Dict[str, Optional[str]]]:
         """
-        获取问题的外部知识响应
+        获取问题的外部知识响应或特定URL的内容
         
         Args:
             prompt: 用户输入的问题
             flag: 是否使用大模型提取核心内容，默认为True
-            mode: 搜索引擎选择，支持"DUCKDUCKGO"和"BAIDU"，默认为"DUCKDUCKGO"
+            mode: 搜索引擎选择，支持"DUCKDUCKGO"、"BAIDU"和"URL_SPECIFIC"，默认为"DUCKDUCKGO"
             model: 大模型类型，默认从配置中获取
             base_url: 大模型API基础URL，默认从配置中获取
             key: API密钥，默认从配置中获取
             max_web_results: 最大Web结果数，默认从配置中获取
+            specific_url: 指定要爬取的URL（仅mode="URL_SPECIFIC"时使用）
             
         Returns:
             包含外部知识的字典列表
         """
         try:
-            logger.info(f"开始处理问题: {prompt}")
+            logger.info(f"开始处理内容: {prompt}")
             search_engine = self.search_engines.get(mode)
-            web_results = search_engine.search(prompt, max_results=max_web_results)
+            
+            # 特定URL爬取模式
+            if mode == "URL_SPECIFIC" and specific_url:
+                logger.info(f"使用URL直接爬取模式: {specific_url}")
+                web_result = search_engine.fetch_content(specific_url)
+                if not web_result:
+                    logger.warning(f"无法爬取URL: {specific_url}")
+                    return []
+                    
+                web_results = [web_result]
+            else:
+                # 常规搜索模式
+                web_results = search_engine.search(prompt, max_results=max_web_results)
             
             if not web_results:
                 logger.warning(f"未获取到搜索结果: {prompt}")
