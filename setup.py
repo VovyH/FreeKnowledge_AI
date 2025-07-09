@@ -12,10 +12,10 @@ setup(
     ],
     author="Yuhang-Wu",
     author_email="m325124620@sues.edu.cn",
-    description="An Agent for obtaining external knowledge for free.",
+    description="An agent that provides free and flexible access to external knowledge.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/sues_knowledge",
+    url="https://github.com/VovyH/FreeKnowledge_AI",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
