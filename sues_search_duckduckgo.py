@@ -31,7 +31,8 @@ def remove_html_tags(text: str) -> str:
 
 def extract_chinese(text: str) -> Optional[str]:
     """
-    提取字符串中的中文字符、中文标点符号、中文之间的汉字和英文，保留换行符。
+    提取网页内容中的有效文本，保留中文字符、中文标点符号、英文字母、数字和换行符
+    过滤掉HTML标签和其他不相关字符
     
     Args:
         text: 输入字符串，可能包含中文、英文、数字、符号等，包含换行符
@@ -41,12 +42,16 @@ def extract_chinese(text: str) -> Optional[str]:
     """
     try:
         if not isinstance(text, str):
+            logger.warning("extract_chinese函数收到非字符串输入")
             raise ValueError("输入必须是字符串")
         
-        # 去除HTML标签
+        # 首先去除HTML标签
         text = remove_html_tags(text)
         
-        # 使用正则表达式匹配中文字符、中文标点符号、中文之间的汉字和英文，以及换行符
+        # 使用正则表达式匹配中文字符、中文标点符号、英文字母、数字和换行符
+        # \u4e00-\u9fff: 中文汉字
+        # \u3000-\u303f: 中文标点
+        # \uff00-\uffef: 全角字符
         pattern = r'[\u4e00-\u9fff\u3000-\u303f\uff00-\uffefa-zA-Z0-9\n]'
         matches = re.findall(pattern, text)
         
@@ -60,7 +65,7 @@ def extract_chinese(text: str) -> Optional[str]:
         print(f"提取过程中出错: {str(e)}")
         return None
 
-log_path = os.path.join(os.path.dirname(__file__), "duckduckgo_search.log")
+log_path = os.path.join(os.path.dirname(__file__), "duckduckgo_search_optimized.log")
 
 # 配置日志（确保这是唯一的日志配置）
 logging.basicConfig(
@@ -300,7 +305,7 @@ class DuckDuckGoSearchOptimized:
         return None
 
     def save_results(self, results: List[Dict[str, Optional[str]]], 
-                    filename: str = r'E:\我的论文和代码\Chemotherapy\ReNeLLM-main\sues_rag\duckduckgo_search_results.json',
+                    filename: str = 'duckduckgo_search_results.json',
                     output_format: str = 'json'):
         """
         将搜索结果保存为文件
@@ -329,6 +334,7 @@ class DuckDuckGoSearchOptimized:
             logger.error(f"保存搜索结果时出错: {str(e)}")
 
 def main():
+    """示例使用DuckDuckGo搜索引擎"""
     search_engine = DuckDuckGoSearchOptimized()
     query = input("请输入搜索关键词: ")
     output_format = input("请输入输出格式(json/list): ").strip().lower() or 'json'
