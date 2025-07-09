@@ -1,5 +1,9 @@
-from dataclasses import dataclass
+"""
+配置模块 - 管理FreeKnowledge AI的全局配置项
+"""
+
 import os
+from dataclasses import dataclass
 
 @dataclass
 class Config:
