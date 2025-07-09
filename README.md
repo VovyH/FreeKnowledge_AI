@@ -52,8 +52,9 @@ print(results)
 We allow passing in a variety of parameters to better control the output, including:
 - `question`: Question entered by the user (Required)。
 - `flag`: Whether to use a large model to extract the core content of crawled external knowledge (Default True)。
-- `mode`: "BAIDU" or "DUCKDUCKGO" (Default "DUCKDUCKGO")。
+- `mode`: "BAIDU", "DUCKDUCKGO" (Default "DUCKDUCKGO")，or "URL_SPECIFIC"。
   > You need to use VPN when using "DUCKDUCKGO", but not "BAIDU". We recommend using "DUCKDUCKGO" because the crawled results are more accurate, but Baidu's response speed will be faster.
+- `specific_url` :This specifies the exact URL(s) to crawl directly. Example: "https://docs.python.org/3/tutorial/
 - `model`: You can choose the large model you want to use (Default "internlm/internlm2_5-7b-chat").
 - `base_url`: The base_url of the model (Default "https://api.siliconflow.cn/v1/chat/completions").
 - `key`: Pass in your own key。
