@@ -147,16 +147,13 @@ class BaiduSearchOptimized:
                 if page_text is None:  # 添加保护
                     page_text = ""
                 page_text = page_text.lower()
-                # 检查查询中的每个词是否在网页内容中出现
                 query_words = set(query.lower().split())
-                content_words = set(page_text.split())
-                content_match_ratio = len(query_words.intersection(content_words)) / len(query_words)
-                
-                # 新增：计算查询词汇在内容中出现的频率
-                word_frequency_score = 0
+                total_frequency = 0
+                content_length = len(page_text.split())
                 for word in query_words:
-                    word_frequency_score += page_text.count(word)
-                word_frequency_score = min(word_frequency_score / len(query_words), 5)  # 限制最大得分
+                    total_frequency += page_text.count(word)
+                word_frequency_score = min(total_frequency / len(query_words), 5)
+                content_match_ratio = (total_frequency / content_length)
             else:
                 content_match_ratio = 0.0
                 word_frequency_score = 0.0
