@@ -60,6 +60,7 @@ We allow passing in a variety of parameters to better control the output, includ
 - `base_url`: The base_url of the model (Default "https://api.siliconflow.cn/v1/chat/completions").
 - `key`: Pass in your own key。
 - `max_web_results`: Get the amount of crawled external knowledge (Default 5)。
+- `save_format`: Specify the format to save results. Set to "json" to automatically save results to a file named after your question (e.g., "your_question.json").
 
 **Report errors:**
 > When you fail to obtain website content, don't worry, just wait a little longer, because some websites require verification. Another solution is to increase the number of retries and thread sleep time.

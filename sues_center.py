@@ -4,6 +4,8 @@ import requests
 import logging
 import time
 import os
+import json
+import re
 from typing import List, Dict, Optional
 from sues_search_duckduckgo import DuckDuckGoSearchOptimized
 from sues_search_baidu import BaiduSearchOptimized
@@ -37,7 +39,8 @@ class SuesCenter:
                    base_url: str = config_args.model_base_url,
                    key: str = config_args.model_key,
                    max_web_results: int = config_args.max_web_results,
-                   specific_url: Optional[str] = None) -> List[Dict[str, Optional[str]]]:
+                   specific_url: Optional[str] = None,
+                   save_format: Optional[str] = None) -> List[Dict[str, Optional[str]]]:
         """
         获取问题的外部知识响应或特定URL的内容
         
@@ -50,6 +53,7 @@ class SuesCenter:
             key: API密钥，默认从配置中获取
             max_web_results: 最大Web结果数，默认从配置中获取
             specific_url: 指定要爬取的URL（仅mode="URL_SPECIFIC"时使用）
+            save_format: 保存格式，如果为"json"则自动保存，否则不保存
             
         Returns:
             包含外部知识的字典列表
@@ -120,7 +124,14 @@ class SuesCenter:
                             time.sleep(5)
             else:
                 results = web_results
-            logger.info(f"问题处理完成: {prompt}, 结果数: {len(results)}")  # 添加完成日志
+                
+            logger.info(f"问题处理完成: {prompt}, 结果数: {len(results)}")
+        
+            if save_format and save_format.lower() == "json" and results:
+                filename = self._generate_filename_from_question(prompt)
+                self.save_results(results, filename=filename, output_format="json")
+                logger.info(f"自动保存搜索结果到 {filename}")
+            
             return results
             
         except Exception as e:
@@ -128,6 +139,50 @@ class SuesCenter:
             return []
             
         return "未能生成回答"
+        
+    def _generate_filename_from_question(self, question: str) -> str:
+        """
+        根据问题生成有效的文件名
+        
+        Args:
+            question: 用户问题
+            
+        Returns:
+            有效的文件名
+        """
+        valid_filename = re.sub(r'[\\/*?:"<>|]', "", question)
+        if len(valid_filename) > 50:
+            valid_filename = valid_filename[:50]
+        return f"{valid_filename}.json"
+    def save_results(self, results: List[Dict[str, Optional[str]]], 
+                    filename: str = 'search_results.json',
+                    output_format: str = 'json'):
+        """
+        将搜索结果保存为文件
+        
+        Args:
+            results: 搜索结果列表
+            filename: 保存文件名
+            output_format: 输出格式，支持 'json' 或 'list'
+        """
+        try:
+            with open(filename, 'w', encoding='utf-8') as f:
+                if output_format.lower() == 'json':
+                    json.dump(results, f, ensure_ascii=False, indent=2)
+                elif output_format.lower() == 'list':
+                    for result in results:
+                        f.write(f"索引: {result.get('idx', 'N/A')}\n")
+                        f.write(f"标题: {result.get('title', 'N/A')}\n")
+                        f.write(f"问题: {result.get('question', 'N/A')}\n")
+                        f.write(f"链接: {result.get('url', 'N/A')}\n")
+                        f.write(f"内容: {result.get('content', 'N/A')[:200] + '...' if result.get('content') and len(result.get('content', '')) > 200 else result.get('content', 'N/A')}\n")
+                        f.write("-" * 80 + "\n\n")
+                else:
+                    raise ValueError("不支持的输出格式，请使用 'json' 或 'list'")
+                    
+            logger.info(f"搜索结果已保存至 {filename} (格式: {output_format})")
+        except Exception as e:
+            logger.error(f"保存搜索结果时出错: {str(e)}")
 
 def main():
     center = SuesCenter()
@@ -138,10 +193,16 @@ def main():
             
         start_time = time.time()
         mode = "BAIDU"
-        flag =True
-        results = center.get_response(question, flag, mode)
+        flag = True
+        save_json = input("是否保存为JSON格式(y/n, 默认n): ").strip().lower() == 'y'
+        save_format = "json" if save_json else None
+            
+        results = center.get_response(question, flag=flag, mode=mode, save_format=save_format)
+        
+        # 显示结果
         for result in results:
             print(f"\n回答: {result}")
+            
         print(f"\n处理时间: {time.time() - start_time:.2f}秒")
 
 if __name__ == "__main__":
