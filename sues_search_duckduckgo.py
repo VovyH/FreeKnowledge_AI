@@ -9,6 +9,8 @@ import json
 from difflib import SequenceMatcher
 import jieba
 import re
+import pdfplumber
+import io
 import os
 from html import unescape
 from typing import Optional
@@ -254,15 +256,58 @@ class DuckDuckGoSearchOptimized:
 
         return results
 
+    # def _fetch_page_content(self, url: str) -> Optional[str]:
+    #     """
+    #     获取网页的完整 HTML 内容，处理可能的重定向
+        
+    #     Args:
+    #         url: 网页 URL
+            
+    #     Returns:
+    #         网页的完整 HTML 内容或 None
+    #     """
+    #     try:
+    #         for attempt in range(self.max_retries):
+    #             try:
+    #                 response = self.session.get(
+    #                     url,
+    #                     headers=self.headers,
+    #                     timeout=self.timeout,
+    #                     allow_redirects=True
+    #                 )
+    #                 response.raise_for_status()
+    #                 response.encoding = 'utf-8'
+    #                 # 检查是否为重定向页面（例如 DuckDuckGo 的安全跳转）
+    #                 soup = BeautifulSoup(response.text, 'html.parser')
+    #                 meta_refresh = soup.find('meta', attrs={'http-equiv': 'refresh'})
+    #                 if meta_refresh and 'content' in meta_refresh.attrs:
+    #                     # 提取 meta 标签中的目标 URL
+    #                     content = meta_refresh['content']
+    #                     match = re.search(r'url=(.*)', content, re.IGNORECASE)
+    #                     if match:
+    #                         target_url = match.group(1)
+    #                         logger.info(f"检测到重定向，目标 URL: {target_url}")
+    #                         # 再次请求目标 URL
+    #                         response = self.session.get(
+    #                             target_url,
+    #                             headers=self.headers,
+    #                             timeout=self.timeout,
+    #                             allow_redirects=True
+    #                         )
+    #                         response.raise_for_status()
+    #                         response.encoding = 'utf-8'
+    #                 return response.text if response.text else "无有效内容"
+    #             except requests.RequestException as e:
+    #                 logger.warning(f"获取网页内容失败 (尝试 {attempt + 1}/{self.max_retries}): {str(e)}")
+    #                 if attempt == self.max_retries - 1:
+    #                     return None
+    #     except Exception as e:
+    #         logger.error(f"获取网页内容时出错: {str(e)}")
+    #     return None
+
     def _fetch_page_content(self, url: str) -> Optional[str]:
         """
-        获取网页的完整 HTML 内容，处理可能的重定向
-        
-        Args:
-            url: 网页 URL
-            
-        Returns:
-            网页的完整 HTML 内容或 None
+        获取网页正文 + PDF 内容（如有），清理无用标签，支持重试与重定向
         """
         try:
             for attempt in range(self.max_retries):
@@ -274,18 +319,17 @@ class DuckDuckGoSearchOptimized:
                         allow_redirects=True
                     )
                     response.raise_for_status()
-                    response.encoding = 'utf-8'
-                    # 检查是否为重定向页面（例如 DuckDuckGo 的安全跳转）
+                    response.encoding = response.apparent_encoding
                     soup = BeautifulSoup(response.text, 'html.parser')
+
+                    # 处理 meta refresh 重定向
                     meta_refresh = soup.find('meta', attrs={'http-equiv': 'refresh'})
                     if meta_refresh and 'content' in meta_refresh.attrs:
-                        # 提取 meta 标签中的目标 URL
                         content = meta_refresh['content']
                         match = re.search(r'url=(.*)', content, re.IGNORECASE)
                         if match:
                             target_url = match.group(1)
                             logger.info(f"检测到重定向，目标 URL: {target_url}")
-                            # 再次请求目标 URL
                             response = self.session.get(
                                 target_url,
                                 headers=self.headers,
@@ -293,8 +337,33 @@ class DuckDuckGoSearchOptimized:
                                 allow_redirects=True
                             )
                             response.raise_for_status()
-                            response.encoding = 'utf-8'
-                    return response.text if response.text else "无有效内容"
+                            response.encoding = response.apparent_encoding
+                            soup = BeautifulSoup(response.text, 'html.parser')
+
+                    # 清理无用标签
+                    for tag in soup(['script', 'style', 'header', 'footer', 'nav', 'aside']):
+                        tag.decompose()
+
+                    # 提取网页正文
+                    html_text = soup.get_text(separator='\n', strip=True)
+
+                    # 查找 PDF 链接
+                    pdf_match = re.search(r'(href|src)=["\'](.*?\.pdf)["\']', response.text)
+                    pdf_text = ""
+                    if pdf_match:
+                        pdf_url = urljoin(url, pdf_match.group(2))
+                        logger.info(f"检测到 PDF 链接: {pdf_url}")
+                        pdf_resp = self.session.get(pdf_url, headers=self.headers, timeout=15)
+                        pdf_resp.raise_for_status()
+                        with pdfplumber.open(io.BytesIO(pdf_resp.content)) as pdf:
+                            pdf_text = '\n'.join(
+                                page.extract_text() for page in pdf.pages if page.extract_text()
+                            )
+
+                    # 合并网页正文与 PDF 内容
+                    full_text = f"【网页正文】\n{html_text}\n\n【相关文件内容】\n{pdf_text}"
+                    return full_text
+
                 except requests.RequestException as e:
                     logger.warning(f"获取网页内容失败 (尝试 {attempt + 1}/{self.max_retries}): {str(e)}")
                     if attempt == self.max_retries - 1:
@@ -302,7 +371,7 @@ class DuckDuckGoSearchOptimized:
         except Exception as e:
             logger.error(f"获取网页内容时出错: {str(e)}")
         return None
-
+    
     def save_results(self, results: List[Dict[str, Optional[str]]], 
                     filename: str = 'duckduckgo_search_results.json',
                     output_format: str = 'json'):
