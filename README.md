@@ -84,7 +84,38 @@ print(results)
      <img src="https://github.com/user-attachments/assets/c7cd31bf-1732-476b-a4ca-d4c33529f644"/>
 </div>
 
-## 5. 👇Citation
+### 5. 🛠️ MCP Integration (New!)
+
+FreeKnowledge AI now supports MCP (Model Control Protocol) integration, allowing you to use its search capabilities directly from MCP-compatible clients like Claude, ChatGPT, and other agents.
+
+#### Setup MCP Server
+
+1. Make sure you have the MCP client library installed:
+```
+pip install mcp
+```
+
+2. Create a `FreeKnowledgeMcp.json` configuration file:
+```json
+{
+    "mcpServers": {
+      "knowledge_search_server": {
+        "command": "python",
+        "args": ["path/to/your/FreeKnowledge_AI/MCP.py"],
+        "transport": "stdio"
+      }
+    }
+}
+```
+
+#### Available MCP Tools
+
+- **baidu_search_with_summary**: Search using Baidu and summarize results with AI
+- **duckduckgo_search_with_summary**: Search using DuckDuckGo and summarize results with AI
+- **url_specific_with_summary**: Fetch and summarize content from a specific URL
+
+
+## 6. 👇Citation
 If you think this project is useful to you, please click star and cite this project。
 
 ```bibtex
