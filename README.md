@@ -114,8 +114,9 @@ Example 2:
 | -- | -- |
 | DuckDuckGO API **(Free)** | 1.56 |
 | FreeKnowledge-AI **(Free)** | 40.93 |
-| BoCha API **(Business)** | -- |
+| BoCha API **(Business)** | 7.00 |
 | Exa API **(Business)** | -- |
+**Note: ** FreeKnowledge AI takes 15–20 times longer than both DuckDuckGo and BoCha Search, and BoCha Search costs about 15 RMB for 200 queries—much more expensive than Exa—and delivers significantly worse results.
 
 ### 6. 🛠️ MCP Integration (New!)
 
