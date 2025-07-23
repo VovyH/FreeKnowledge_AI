@@ -87,7 +87,7 @@ print(results)
 ### 5. 📈 Evaluation
 ##### 5.1 Benchmark:
 We release the **Academy Search dataset** to serve as a unified academic-domain benchmark for search engine evaluation. All 200 queries are **non-open-ended** and **difficult**, collected exclusively from paper pages of top-tier conferences and journals, and uniformly stored in the dataset/ directory. Each query comes with a **verifiable** ground-truth answer on the source website and has been independently cross-checked by two master’s students in computer science. The dataset is further divided into **two categories**: fact-based judgment questions and fact-based short-answer question, and we will continue to expand the dataset to additional disciplines and open-source the updates.
-We evaluate the search engines by feeding their outputs to DeepSeek-V3, which then uniformly compares each response against the verifiable ground-truth answer to produce a consistent.
+We evaluate the search engines by feeding their outputs to InternLM3-8B, which then uniformly compares each response against the verifiable ground-truth answer to produce a consistent.
 ##### 5.2 characteristics:
 - non-open-ended;
 - difficult;
@@ -112,10 +112,10 @@ Example 2:
 ##### 5.3 Result:
 |Method| Academy Search dataset |
 | -- | -- |
-| DuckDuckGO API(Free) | 1.56 |
-| FreeKnowledge-AI(Free) | 40.93 |
-| BoCha API(Business) | -- |
-| Exa API(Business) | -- |
+| DuckDuckGO API **(Free)** | 1.56 |
+| FreeKnowledge-AI **(Free)** | 40.93 |
+| BoCha API **(Business)** | -- |
+| Exa API **(Business)** | -- |
 
 ### 6. 🛠️ MCP Integration (New!)
 
