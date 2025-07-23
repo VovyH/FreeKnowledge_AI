@@ -84,7 +84,40 @@ print(results)
      <img src="https://github.com/user-attachments/assets/c7cd31bf-1732-476b-a4ca-d4c33529f644"/>
 </div>
 
-### 5. 🛠️ MCP Integration (New!)
+### 5. 📈 Evaluation
+##### 5.1 Benchmark:
+We release the **Academy Search dataset** to serve as a unified academic-domain benchmark for search engine evaluation. All 200 queries are **non-open-ended** and **difficult**, collected exclusively from paper pages of top-tier conferences and journals, and uniformly stored in the dataset/ directory. Each query comes with a **verifiable** ground-truth answer on the source website and has been independently cross-checked by two master’s students in computer science. The dataset is further divided into **two categories**: fact-based judgment questions and fact-based short-answer question, and we will continue to expand the dataset to additional disciplines and open-source the updates.
+We evaluate the search engines by feeding their outputs to DeepSeek-V3, which then uniformly compares each response against the verifiable ground-truth answer to produce a consistent.
+##### 5.2 characteristics:
+- non-open-ended;
+- difficult;
+- verifiable;
+- multi-categories;
+```json
+Example 1:
+{
+ "query": "EMNLP 2024的投稿主题是否包括计算社会科学与文化分析？",
+ "domain": "学术",
+ "ground_truth": true,
+ "answer_type": "boolean"
+}
+Example 2:
+{
+ "query": "ACL 2025主题轨道的核心内容是什么？",
+ "domain": "学术",
+ "ground_truth": "聚焦自然语言处理模型的泛化能力，包括如何增强模型在组合性、结构性、跨任务、跨语言、跨领域及鲁棒性等多维度的泛化能力，探究影响泛化的因素，评估泛化能力的有效方法，以及大语言模型在泛化方面的关键局限性等",
+ "answer_type": "entity"
+}
+```
+##### 5.3 Result:
+|Method| Academy Search dataset |
+| -- | -- |
+| DuckDuckGO API(Free) | 1.56 |
+| FreeKnowledge-AI(Free) | 40.93 |
+| BoCha API(Business) | -- |
+| Exa API(Business) | -- |
+
+### 6. 🛠️ MCP Integration (New!)
 
 FreeKnowledge AI now supports MCP (Model Control Protocol) integration, allowing you to use its search capabilities directly from MCP-compatible clients like Claude, ChatGPT, and other agents.
 
@@ -115,7 +148,7 @@ pip install mcp
 - **url_specific_with_summary**: Fetch and summarize content from a specific URL
 
 
-## 6. 👇Citation
+### 7. 👇Citation
 If you think this project is useful to you, please click star and cite this project。
 
 ```bibtex
