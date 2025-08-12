@@ -134,15 +134,15 @@ Example 2:
 | Method | Correct Answers | Accuracy | Status |
 |--------|----------------|----------|---------|
 | DuckDuckGO API **(Free)** | - | - | Not evaluated |
-| FreeKnowledge-AI **(Free)** | 138/200 | **69.0%** | ✅ Evaluated |
-| BoCha API **(Business)** | 86/200 | 43.0% | ✅ Evaluated |
+| FreeKnowledge-AI **(Free)** | 138/200 | **69.00%** | ✅ Evaluated |
+| BoCha API **(Business)** | 86/200 | 43.00% | ✅ Evaluated |
 | Exa API **(Business)** | - | - | Not evaluated |
 
 **Academy Search Dataset:**
 | Method | Correct Answers | Accuracy | Status |
 |--------|----------------|----------|-------------------|
-| DuckDuckGO API **(Free)** | 3/200 | 1.56% |  |
-| FreeKnowledge-AI **(Free)** | 82/200 | **40.93%** | ✅ Evaluated |
+| DuckDuckGO API **(Free)** | 3/200 | 1.5% | ✅ Evaluated  |
+| FreeKnowledge-AI **(Free)** | 82/200 | **41.00%** | ✅ Evaluated |
 | BoCha API **(Business)** | 14/200 | 7.00% | ✅ Evaluated |
 | Exa API **(Business)** | - | - | Not evaluated |
 
