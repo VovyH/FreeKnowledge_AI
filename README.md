@@ -93,6 +93,7 @@ We evaluate the search engines by feeding their outputs to InternLM3-8B, which t
 - difficult;
 - verifiable;
 - multi-categories;
+
 **Academic Domain Examples:**
 ```json
 Example 1:
@@ -110,6 +111,7 @@ Example 2:
  "answer_type": "entity"
 }
 ```
+
 **Medical Domain Examples:**
 ```json
 {
@@ -126,6 +128,7 @@ Example 2:
  "answer_type": "entity"
 }
 ```
+
 ##### 5.3 Result:
 **Medical Dataset:**
 | Method | Correct Answers | Accuracy | Status |
@@ -134,6 +137,7 @@ Example 2:
 | FreeKnowledge-AI **(Free)** | 138/200 | **69.0%** | ✅ Evaluated |
 | BoCha API **(Business)** | 86/200 | 43.0% | ✅ Evaluated |
 | Exa API **(Business)** | - | - | Not evaluated |
+
 **Academy Search Dataset:**
 | Method | Correct Answers | Accuracy | Status |
 |--------|----------------|----------|-------------------|
