@@ -6,7 +6,7 @@
 ![PyPI](https://img.shields.io/badge/PyPI-绿色??color=green)
 ![书生·铺语大模型](https://img.shields.io/badge/书生·浦语大模型-蓝色?color=blue)
 
-✨An agent that provides **free** and **flexible** access to external knowledge！！
+✨An agent that provides **free** and **flexible** access to search external knowledge！！
 <div align="center">
      <img src="https://github.com/user-attachments/assets/df699fb5-8682-4b5a-97d4-c66c45a324af"/>
 </div>
