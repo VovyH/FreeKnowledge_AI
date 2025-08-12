@@ -3,7 +3,8 @@
 ![PyPI - Format](https://img.shields.io/pypi/format/FreeKnowledge-AI)
 ![GitHub stars](https://img.shields.io/github/stars/VovyH/FreeKnowledge_AI)
 ![PyPI - License](https://img.shields.io/pypi/l/FreeKnowledge-AI?color=purple)
-![书生·铺语大模型](https://img.shields.io/badge/书生·浦语大模型-蓝色?color=blue)
+![PyPI](https://img.shields.io/badge/PyPI-绿色??color=green)
+![书生·浦语大模型](https://img.shields.io/badge/书生·浦语大模型-蓝色?color=blue)
 
 ✨An agent that provides **free** and **flexible** access to external knowledge！！
 <div align="center">
@@ -83,7 +84,80 @@ print(results)
      <img src="https://github.com/user-attachments/assets/c7cd31bf-1732-476b-a4ca-d4c33529f644"/>
 </div>
 
-### 5. 🛠️ MCP Integration (New!)
+### 5. 📈 Evaluation
+##### 5.1 Benchmark:
+We release comprehensive evaluation datasets to serve as unified benchmarks for search engine evaluation across multiple domains. Our datasets include both **Academy Search dataset** and **Medical dataset**, with all queries being **non-open-ended** and **difficult**, uniformly stored in the dataset/ directory. Each query comes with a **verifiable** ground-truth answer on the source website and has been independently cross-checked by domain experts. The datasets are further divided into **two categories**: fact-based judgment questions and fact-based short-answer questions, and we will continue to expand the datasets to additional disciplines and open-source the updates.
+
+We evaluate the search engines by feeding their outputs to InternLM3-8B, which then uniformly compares each response against the verifiable ground-truth answer to produce consistent results.
+
+##### 5.2 Dataset Characteristics:
+- **non-open-ended**: All questions have definitive answers
+- **difficult**: Challenging queries requiring deep domain knowledge
+- **verifiable**: Ground-truth answers can be verified from authoritative sources
+- **multi-domain**: Covering academic and medical domains
+- **multi-categories**: Boolean judgment and entity extraction questions
+
+##### 5.3 Dataset Examples:
+
+**Academic Domain Examples:**
+```json
+{
+ "query": "EMNLP 2024的投稿主题是否包括计算社会科学与文化分析？",
+ "domain": "学术",
+ "ground_truth": true,
+ "answer_type": "boolean"
+}
+
+{
+ "query": "ACL 2025主题轨道的核心内容是什么？",
+ "domain": "学术",
+ "ground_truth": "聚焦自然语言处理模型的泛化能力，包括如何增强模型在组合性、结构性、跨任务、跨语言、跨领域及鲁棒性等多维度的泛化能力，探究影响泛化的因素，评估泛化能力的有效方法，以及大语言模型在泛化方面的关键局限性等",
+ "answer_type": "entity"
+}
+```
+
+**Medical Domain Examples:**
+```json
+{
+ "query": "派安普利单抗注射液是否获得FDA批准用于治疗复发或转移性鼻咽癌？",
+ "domain": "医疗",
+ "ground_truth": true,
+ "answer_type": "boolean"
+}
+
+{
+ "query": "根据共识，儿童脓毒性休克液体复苏的首剂液体选择是什么？推荐剂量是多少？",
+ "domain": "医疗",
+ "ground_truth": "首剂液体选择等渗晶体液，剂量为20ml/kg，于5-10分钟内静脉推注",
+ "answer_type": "entity"
+}
+```
+
+##### 5.4 Evaluation Results:
+
+**Medical Dataset (200 queries):**
+| Method | Correct Answers | Accuracy | Status |
+|--------|----------------|----------|---------|
+| DuckDuckGO API **(Free)** | - | - | Not evaluated |
+| FreeKnowledge-AI **(Free)** | 138/200 | **69.0%** | ✅ Evaluated |
+| BoCha API **(Business)** | 86/200 | 43.0% | ✅ Evaluated |
+| Exa API **(Business)** | - | - | Not evaluated |
+**Academy Search Dataset (200 queries):**
+| Method | Correct Answers | Accuracy | Status |
+|--------|----------------|----------|-------------------|
+| DuckDuckGO API **(Free)** | 3/200 | 1.56% |  |
+| FreeKnowledge-AI **(Free)** | 82/200 | **40.93%** | ✅ Evaluated |
+| BoCha API **(Business)** | 14/200 | 7.00% | ✅ Evaluated |
+| Exa API **(Business)** | - | - | Not evaluated |
+
+**Performance Summary:**
+- **FreeKnowledge-AI** demonstrates superior performance across both domains, achieving 69.0% accuracy on medical queries and 40.93% on academic queries
+- **BoCha API**, despite being a commercial solution, shows significantly lower performance with only 43.0% accuracy on medical queries
+- **DuckDuckGO API** was not evaluated on the medical dataset due to technical limitations
+
+**Note:** FreeKnowledge AI takes 15–20 times longer than both DuckDuckGo and BoCha Search, but delivers significantly better results. BoCha Search costs about 15 RMB for 200 queries—much more expensive than our free solution.
+
+### 6. 🛠️ MCP Integration (New!)
 
 FreeKnowledge AI now supports MCP (Model Control Protocol) integration, allowing you to use its search capabilities directly from MCP-compatible clients like Claude, ChatGPT, and other agents.
 
@@ -114,7 +188,7 @@ pip install mcp
 - **url_specific_with_summary**: Fetch and summarize content from a specific URL
 
 
-## 6. 👇Citation
+### 7. 👇Citation
 If you think this project is useful to you, please click star and cite this project。
 
 ```bibtex
@@ -122,7 +196,6 @@ If you think this project is useful to you, please click star and cite this proj
     title={FreeKnowledge_AI: An agent that provides free and flexible access to external knowledge,
     author={Yuhang Wu and Henghua Zhang},
     year={2025},
-    url=[{<url id="cuqmhcd43355nsg2o9dg" type="url" status="parsed" title="GitHub -VovyH/FreeKnowledge_AI" wc="6723">https://github.com/VovyH/FreeKnowledge_AI</url>}](https://github.com/VovyH/FreeKnowledge_AI/),
+    url=https://github.com/VovyH/FreeKnowledge_AI/,
 }
 ```
-  
