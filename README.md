@@ -93,6 +93,7 @@ We evaluate the search engines by feeding their outputs to InternLM3-8B, which t
 - difficult;
 - verifiable;
 - multi-categories;
+**Academic Domain Examples:**
 ```json
 Example 1:
 {
@@ -109,13 +110,37 @@ Example 2:
  "answer_type": "entity"
 }
 ```
+**Medical Domain Examples:**
+```json
+{
+ "query": "派安普利单抗注射液是否获得FDA批准用于治疗复发或转移性鼻咽癌？",
+ "domain": "医疗",
+ "ground_truth": true,
+ "answer_type": "boolean"
+}
+
+{
+ "query": "根据共识，儿童脓毒性休克液体复苏的首剂液体选择是什么？推荐剂量是多少？",
+ "domain": "医疗",
+ "ground_truth": "首剂液体选择等渗晶体液，剂量为20ml/kg，于5-10分钟内静脉推注",
+ "answer_type": "entity"
+}
+```
 ##### 5.3 Result:
-|Method| Academy Search dataset |
-| -- | -- |
-| DuckDuckGO API **(Free)** | 1.56 |
-| FreeKnowledge-AI **(Free)** | 40.93 |
-| BoCha API **(Business)** | 7.00 |
-| Exa API **(Business)** | -- |
+**Medical Dataset:**
+| Method | Correct Answers | Accuracy | Status |
+|--------|----------------|----------|---------|
+| DuckDuckGO API **(Free)** | - | - | Not evaluated |
+| FreeKnowledge-AI **(Free)** | 138/200 | **69.0%** | ✅ Evaluated |
+| BoCha API **(Business)** | 86/200 | 43.0% | ✅ Evaluated |
+| Exa API **(Business)** | - | - | Not evaluated |
+**Academy Search Dataset:**
+| Method | Correct Answers | Accuracy | Status |
+|--------|----------------|----------|-------------------|
+| DuckDuckGO API **(Free)** | 3/200 | 1.56% |  |
+| FreeKnowledge-AI **(Free)** | 82/200 | **40.93%** | ✅ Evaluated |
+| BoCha API **(Business)** | 14/200 | 7.00% | ✅ Evaluated |
+| Exa API **(Business)** | - | - | Not evaluated |
 
 **Note: ** FreeKnowledge AI takes 15–20 times longer than both DuckDuckGo and BoCha Search, and BoCha Search costs about 15 RMB for 200 queries—much more expensive than Exa—and delivers significantly worse results.
 
