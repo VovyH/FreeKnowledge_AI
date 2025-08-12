@@ -196,6 +196,6 @@ If you think this project is useful to you, please click star and cite this proj
     title={FreeKnowledge_AI: An agent that provides free and flexible access to external knowledge,
     author={Yuhang Wu and Henghua Zhang},
     year={2025},
-    url=https://github.com/VovyH/FreeKnowledge_AI/,
+    url=[{<url id="cuqmhcd43355nsg2o9dg" type="url" status="parsed" title="GitHub -VovyH/FreeKnowledge_AI" wc="6723">https://github.com/VovyH/FreeKnowledge_AI</url>}](https://github.com/VovyH/FreeKnowledge_AI/),
 }
 ```
