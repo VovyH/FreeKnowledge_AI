@@ -79,8 +79,9 @@ with gr.Blocks(
         with gr.Column(scale=1, min_width=350):
             gr.Markdown("[GitHub 项目地址](https://github.com/VovyH/FreeKnowledge_AI)")
 
-            gr.Image("https://private-user-images.githubusercontent.com/113747888/463650377-df699fb5-8682-4b5a-97d4-c66c45a324af.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NTU1MzM3MjMsIm5iZiI6MTc1NTUzMzQyMywicGF0aCI6Ii8xMTM3NDc4ODgvNDYzNjUwMzc3LWRmNjk5ZmI1LTg2ODItNGI1YS05N2Q0LWM2NmM0NWEzMjRhZi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwODE4JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDgxOFQxNjEwMjNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00ZDQ0YzJjN2E0YmYxNmE0OTRlNDQ0MmZmM2ZkYmRhMzk1NjRiNDM1OGI0MmIyODNkMzIwMTViZGIyYmQ4ZDM0JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.edVl3CABBGo5pNV0sGMeH9Dck_Gpdnmg9mhs_5KwSdM", show_label=False, show_download_button=False, container=False, height=200, width=700)
+            gr.Image("https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAKXb2ikFNJsrIygwnl0LLVwl9HjV0M9AAIbGgACDkAoVSgkRlbXV2WkNgQ.png", show_label=False, show_download_button=False, container=False, height=230, width=750)
             gr.Image("https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAKPmWijUvzFVnnTw0s_I4ZtcNYCp339AAKlHwACX7UYVQ51BsJrx1ACNgQ.png", show_label=False, show_download_button=False, container=False, height=180, width=650)
+            question = gr.Textbox(
             question = gr.Textbox(
                 label="问题",
                 placeholder="请输入您要搜索的问题..."
