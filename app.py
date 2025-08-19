@@ -82,7 +82,6 @@ with gr.Blocks(
             gr.Image("https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAKXb2ikFNJsrIygwnl0LLVwl9HjV0M9AAIbGgACDkAoVSgkRlbXV2WkNgQ.png", show_label=False, show_download_button=False, container=False, height=230, width=750)
             gr.Image("https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAKPmWijUvzFVnnTw0s_I4ZtcNYCp339AAKlHwACX7UYVQ51BsJrx1ACNgQ.png", show_label=False, show_download_button=False, container=False, height=180, width=650)
             question = gr.Textbox(
-            question = gr.Textbox(
                 label="问题",
                 placeholder="请输入您要搜索的问题..."
             )
