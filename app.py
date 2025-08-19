@@ -100,7 +100,6 @@ with gr.Blocks(
         with gr.Column(scale=1):
             output = gr.HTML(label="搜索结果", elem_id="result-box")
 
-    
     # 点击事件绑定
     search_btn.click(
         fn=search_knowledge,
