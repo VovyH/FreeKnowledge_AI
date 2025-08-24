@@ -29,7 +29,7 @@ sues_center = SuesCenter()
 mcp = FastMCP("FreeKnowledge_AI", port=args.port)
 
 @mcp.tool()
-async def baidu_search_with_summary(query: str, max_results: int = 5, flag: bool = True, save_format: str = None) -> str:
+async def baidu_search_with_summary(query: str, max_results: int = 3, flag: bool = True, save_format: str = None) -> str:
     """使用百度搜索获取外部知识并用大模型总结内容
     
     Args:
@@ -67,7 +67,7 @@ async def baidu_search_with_summary(query: str, max_results: int = 5, flag: bool
     return formatted_results
 
 @mcp.tool()
-async def duckduckgo_search_with_summary(query: str, max_results: int = 5, flag: bool = True, save_format: str = None) -> str:
+async def duckduckgo_search_with_summary(query: str, max_results: int = 3, flag: bool = True, save_format: str = None) -> str:
     """使用DuckDuckGo搜索获取外部知识并用大模型总结内容
     
     Args:
