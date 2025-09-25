@@ -1,0 +1,200 @@
+{"query": "CVPR 2025 的举办时间是什么时候？", "domain": "学术", "ground_truth": "2025 年 6 月 11 日至 15 日", "answer_type": "entity"}
+{"query": "CVPR 2025 的论文接受率是否超过 25%？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "CVPR 2025 的举办地点是哪里？", "domain": "学术", "ground_truth": "美国田纳西州纳什维尔", "answer_type": "entity"}
+{"query": "CVPR 2025 的注册人数是否超过 9000 人？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "CVPR 2025 的最佳论文是否包括《VGGT: Visual Geometry Grounded Transformer》？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "CVPR 2025 的论文提交数量是多少？", "domain": "学术", "ground_truth": "12,008 篇", "answer_type": "entity"}
+{"query": "CVPR 2026 的举办时间是 6 月 6 日至 12 日吗？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "CVPR 2025 的口头报告论文占比是多少？", "domain": "学术", "ground_truth": "3.3%", "answer_type": "entity"}
+{"query": "CVPR 2025 是否有超过 100 个研讨会？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "CVPR 2025 的 AI 艺术画廊展出的作品总数是多少？", "domain": "学术", "ground_truth": "102 件", "answer_type": "entity"}
+{"query": "Harry Shum 在 CVPR 2025 演讲中提到的低空空域相关的基础设施建设内容是什么？", "domain": "学术", "ground_truth": "构建低空空域经济（LAE）的智能综合基础设施", "answer_type": "entity"}
+{"query": "Laurens van der Maaten 演讲中提到的 AI 系统演进的第三阶段（System 3）的特点是什么？", "domain": "学术", "ground_truth": "让模型能够一起思考", "answer_type": "entity"}
+{"query": "Carolina Parada 演讲中提到的 Google DeepMind Gemini 机器人需具备的关键要素有哪些？", "domain": "学术", "ground_truth": "通用性、交互性、灵活性和增强的具身推理能力", "answer_type": "entity"}
+{"query": "CVPR 2025 的三位 keynote 演讲者是否均来自科技公司或相关研究机构？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "CVPR 2025 的 keynote 演讲是否均涉及人工智能相关内容？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "EMNLP 2024接受论文提交的唯一渠道是什么？", "domain": "学术", "ground_truth": "ARR（ACL Rolling Review）", "answer_type": "entity"}
+{"query": "EMNLP 2024的主题轨道是否涉及模型训练与推理效率相关内容？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "EMNLP 2024的研讨会和教程举办时间是什么时候？", "domain": "学术", "ground_truth": "2024年11月15日至16日", "answer_type": "entity"}
+{"query": "EMNLP 2024是否要求论文在匿名期内提交？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "EMNLP 2024的投稿主题是否包括计算社会科学与文化分析？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "EMNLP 2024的论文承诺截止日期是哪天？", "domain": "学术", "ground_truth": "2024年8月20日", "answer_type": "entity"}
+{"query": "IJCNLP - AACL 2025的举办地点在哪里？", "domain": "学术", "ground_truth": "印度孟买印度理工学院孟买分校的Victor Menezes Convention Centre（VMCC）", "answer_type": "entity"}
+{"query": "2024年ACL会士有多少位？", "domain": "学术", "ground_truth": "9位", "answer_type": "entity"}
+{"query": "ACL 2024年当选为副主席的人是谁？", "domain": "学术", "ground_truth": "Luke Zettlemoyer（华盛顿大学）", "answer_type": "entity"}
+{"query": "首届计算语言学博士论文奖的提名截止日期是否为2025年1月31日？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "2024年ACL 1999年时间考验论文奖的获奖论文作者是谁？", "domain": "学术", "ground_truth": "Lillian Lee", "answer_type": "entity"}
+{"query": "ACL是否制定了出版伦理政策？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "ACL出版伦理委员会的首任联合主席有几位？", "domain": "学术", "ground_truth": "3位", "answer_type": "entity"}
+{"query": "2024年ACL 2014年时间考验论文奖的获奖论文是否是《GloVe: Global Vectors for Word Representation》？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "ACL执行委员会在监督会议时，负责审核和发布什么文件？", "domain": "学术", "ground_truth": "会议招标公告（Call for Bids）", "answer_type": "entity"}
+{"query": "ACL执行委员会在审核会议投标时，需要确定哪些关键信息？", "domain": "学术", "ground_truth": "本地安排主席、会议地点和会议日期", "answer_type": "entity"}
+{"query": "ACL执行委员会是否负责签署会议场地合同？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "ACL执行委员会从会议主席那里获取的更新内容包括哪些？", "domain": "学术", "ground_truth": "会议预算和当前状况的偶尔更新", "answer_type": "entity"}
+{"query": "ACL执行委员会是否需要审核会议主席推荐的副 chair 人选？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "传统上，ACL执行委员会中由谁负责签署会议场地合同？", "domain": "学术", "ground_truth": "ACL财务主管（Treasurer）", "answer_type": "entity"}
+{"query": "PRL Forward-Looking Essays系列旨在欢迎哪些领域的研究成果？", "domain": "学术", "ground_truth": "物理科学各领域", "answer_type": "entity"}
+{"query": "《Essay: Overcoming the Obstacles to a Magnetic Fusion Power Plant》的作者是谁？", "domain": "学术", "ground_truth": "Ambrogio Fasoli", "answer_type": "entity"}
+{"query": "探讨量子几何发展方向的论文发表于哪一年？", "domain": "学术", "ground_truth": "2023年", "answer_type": "entity"}
+{"query": "《Essay: Mapping Luminous and Dark Matter in the Universe》是否发表于2025年2月？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "研究利用机器学习进行抗生素发现的论文，其作者有几位？", "domain": "学术", "ground_truth": "2位", "answer_type": "entity"}
+{"query": "《Essay: A Path for the Construction of a Muon Collider》的发表时间是否在2025年4月？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "PRL Forward-Looking Essays系列的论文是否均为受邀发表？", "domain": "学术", "ground_truth": "true", "answer_type": "boolean"}
+{"query": "PRL对论文摘要的字符限制是多少？", "domain": "学术", "ground_truth": "≤ 600 characters", "answer_type": "entity"}
+{"query": "PRL中Comment/Reply的字数限制是多少？", "domain": "学术", "ground_truth": "750 words", "answer_type": "entity"}
+{"query": "PRL要求作者在提交论文时必须提供的100字内容是什么？", "domain": "学术", "ground_truth": "说明论文符合PRL标准的有说服力的理由", "answer_type": "entity"}
+{"query": "PRL中，补充材料是否可以用于规避字数限制？", "domain": "学术", "ground_truth": "否", "answer_type": "boolean"}
+{"query": "PRL对中文作者姓名的排版字体有什么要求？", "domain": "学术", "ground_truth": "简体中文使用宋体（Song MT），繁体中文使用宋体（Sung MT）", "answer_type": "entity"}
+{"query": "PRL发表的Letter论文的出版费用是多少？", "domain": "学术", "ground_truth": "$830", "answer_type": "entity"}
+{"query": "PRL是否接受以Word格式提交的手稿？", "domain": "学术", "ground_truth": "是", "answer_type": "boolean"}
+{"query": "PRL中，彩色插图在印刷版中的首图费用是多少？", "domain": "学术", "ground_truth": "us $1060", "answer_type": "entity"}
+{"query": "ACL 2025的举办地点在哪里？", "domain": "学术", "ground_truth": "奥地利维也纳", "answer_type": "entity"}
+{"query": "ACL 2025主题轨道的核心内容是什么？", "domain": "学术", "ground_truth": "聚焦自然语言处理模型的泛化能力，包括如何增强模型在组合性、结构性、跨任务、跨语言、跨领域及鲁棒性等多维度的泛化能力，探究影响泛化的因素，评估泛化能力的有效方法，以及大语言模型在泛化方面的关键局限性等", "answer_type": "entity"}
+{"query": "ACL 2025的论文提交截止日期是哪天？", "domain": "学术", "ground_truth": "2025年2月15日", "answer_type": "entity"}
+{"query": "ACL 2025的双阶段评审流程中，第一阶段的评审主体是谁？", "domain": "学术", "ground_truth": "ARR评审员和行动编辑（ARR reviewers and action editors）", "answer_type": "entity"}
+{"query": "ACL 2025的长论文和短论文在页码限制上有何差异？", "domain": "学术", "ground_truth": "长论文提交时页码限制为8页，接受后可增加1页内容（最多9页）；短论文提交时页码限制为4页，接受后可增加1页内容（最多5页）", "answer_type": "entity"}
+{"query": "ACL 2025是否接受已在其他会议发表过的论文？", "domain": "学术", "ground_truth": "否", "answer_type": "boolean"}
+{"query": "ACL 2025的研讨会和教程举办时间是否在主会议之后？", "domain": "学术", "ground_truth": "是", "answer_type": "boolean"}
+{"query": "提交给ACL 2025但未被主会议录用的论文，是否会自动进入其他出版物的考量范围？", "domain": "学术", "ground_truth": "是", "answer_type": "boolean"}
+{"query": "ACL 2025的注册开始时间是哪天？", "domain": "学术", "ground_truth": "2025年7月26日14:00", "answer_type": "entity"}
+{"query": "ACL 2025主会议第一天的主题轨道第一场在哪个地点举行？", "domain": "学术", "ground_truth": "Level 1 1.15–16", "answer_type": "entity"}
+{"query": "ACL 2025主会议第二天的主题演讲者是谁？", "domain": "学术", "ground_truth": "Verena Rieser", "answer_type": "entity"}
+{"query": "ACL 2025主会议第三天下午的颁奖环节包括哪些奖项？", "domain": "学术", "ground_truth": "Test of Times奖、ACL杰出服务奖、ACL终身成就奖、最佳论文奖", "answer_type": "entity"}
+{"query": "ACL 2025的虚拟展示是否仅对虚拟参会者开放？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "ACL 2025的欢迎招待会是否对所有注册者开放？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "ACL 2025主会议期间是否提供餐饮？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "Luke Zettlemoyer在ACL 2025 keynote中探讨的关于预训练的三个方向是什么？", "domain": "学术", "ground_truth": "数据高效的后训练（如LIMA、ALMA和s1）、从预训练数据中提取更多信号的新方法（包括字节级语言模型的新分层架构，如BLT）、去中心化的模块化训练算法（如BTM）", "answer_type": "entity"}
+{"query": "Verena Rieser的keynote演讲主题是什么？", "domain": "学术", "ground_truth": "Whose Gold? Re-imagining Alignment for Truly Beneficial AI", "answer_type": "entity"}
+{"query": "Luke Zettlemoyer的研究领域主要集中在哪些方面？", "domain": "学术", "ground_truth": "自然语言语义的实证方法，包括设计机器学习算法、引入新任务和数据集，以及研究如何为预训练开发新架构和自监督信号", "answer_type": "entity"}
+{"query": "Verena Rieser目前所在的机构是什么？", "domain": "学术", "ground_truth": "Google DeepMind", "answer_type": "entity"}
+{"query": "Luke Zettlemoyer是否获得过ACL会士称号？", "domain": "学术", "ground_truth": "是", "answer_type": "boolean"}
+{"query": "Verena Rieser的团队是否为Gemini做出了核心贡献？", "domain": "学术", "ground_truth": "是", "answer_type": "boolean"}
+{"query": "Luke Zettlemoyer的博士学位是在哪所大学获得的？", "domain": "学术", "ground_truth": "麻省理工学院（MIT）", "answer_type": "entity"}
+{"query": "Verena Rieser的keynote演讲是否涉及AI对齐中的人类价值观冲突问题？", "domain": "学术", "ground_truth": "是", "answer_type": "boolean"}
+{"query": "NeurIPS 2025的论文作者通知日期是否为2025年9月18日？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "负责NeurIPS 2025数据集和基准测试的主席之一是谁？", "domain": "学术", "ground_truth": "Lora Aroyo", "answer_type": "entity"}
+{"query": "NeurIPS 2025的一般主席是否包括来自Meta的Cheng Zhang？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "NeurIPS 2025全论文提交的截止时间是否为2025年5月15日（世界协调时间）？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "NeurIPS 2025的伦理审查主席之一是谁？", "domain": "学术", "ground_truth": "Jiahao Chen", "answer_type": "entity"}
+{"query": "NeurIPS 2025的教程提交截止日期是否为2025年7月5日（世界协调时间）？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "负责NeurIPS 2025创意人工智能板块的主席之一是谁？", "domain": "学术", "ground_truth": "Marcelo Coelho", "answer_type": "entity"}
+{"query": "NeurIPS 2025教程提案中，对演讲者的学术背景要求具体包括哪些方面？", "domain": "学术", "ground_truth": "需具备与教程主题相关的深厚学术积累，包括近5年内相关领域的高水平研究成果（如顶会论文、专著等），以及在该领域的学术影响力（如担任相关会议程序委员会成员、专题报告经历等）", "answer_type": "entity"}
+{"query": "NeurIPS 2025教程提案的评审标准是否同时涵盖教程内容的前沿性与受众适用性？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "NeurIPS 2025教程中，若包含编程实践环节，对所需计算资源的说明应涵盖哪些具体内容？", "domain": "学术", "ground_truth": "需明确说明所需硬件配置（如GPU型号、内存大小）、软件环境（如操作系统、编程语言及版本、依赖库）、是否提供云资源支持及访问方式，以及针对不同设备性能的备选方案", "answer_type": "entity"}
+{"query": "NeurIPS 2025教程提案中，关于教程目标受众的描述是否需要区分初学者、中级研究者和专家群体的具体学习收获？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "NeurIPS 2025教程提案被拒后，是否允许在修改后重新提交，且重新提交时需补充哪些材料？", "domain": "学术", "ground_truth": "允许重新提交，需补充针对初审意见的详细修改说明，以及修改后内容与原提案的对比分析", "answer_type": "entity"}
+{"query": "NeurIPS 2025教程的互动环节设计是否需要包含实时反馈机制和问题分层解答方案？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "NeurIPS 2025中，学术部门作为参展商可享受的特殊权益除免费发布职业机会外，还包括哪些？", "domain": "学术", "ground_truth": "可获得5个免费会议注册名额、10’x10’的标准展位，以及在学术合作专区的优先展示权", "answer_type": "entity"}
+{"query": "ICCV 2025主会议论文的提交截止时间是否为2025年3月7日23:59 HST？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "ICCV 2025中，工作坊提案的截止时间与通知时间之间相隔多少天？", "domain": "学术", "ground_truth": "35天，工作坊提案截止于2025年3月13日（Anywhere on Earth），通知时间为2025年4月17日23:59 HST", "answer_type": "entity"}
+{"query": "ICCV 2025的教程提案通知时间是否在4月下旬？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "ICCV 2025主会议论文从注册截止到提交截止之间的时间间隔是多少？", "domain": "学术", "ground_truth": "4天，注册截止于2025年3月3日23:59 HST，提交截止于2025年3月7日23:59 HST", "answer_type": "entity"}
+{"query": "ICCV 2025的最终论文提交截止时间是否在6月之后？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "ICCV 2025中，作者进行论文反驳的起止时间具体是何时？", "domain": "学术", "ground_truth": "起始于2025年5月9日20:59 HST，截止于2025年5月16日23:59 HST，共计7天", "answer_type": "entity"}
+{"query": "第66届IMO是否首次设立了人工智能相关奖项？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "第66届IMO中，AIMO Prize的奖金金额及设立目的是什么？", "domain": "学术", "ground_truth": "奖金金额为1000万美元，设立目的是鼓励开发开源人工智能模型，展示AI在数学问题解决能力上的进步", "answer_type": "entity"}
+{"query": "第66届IMO的参赛选手中，获得满分42分的人数是否超过3人？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "第66届IMO中，人工智能公司在附属活动中对竞赛题目进行测试时使用的AI模型具有什么特点？", "domain": "学术", "ground_truth": "是封闭源码模型，测试结果尚未公开，且测试过程为私下进行", "answer_type": "entity"}
+{"query": "第66届IMO的举办地点是否为阳光海岸？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "第66届IMO中，IMO总裁格雷戈尔·多利纳关于AI模型的表态包含哪些核心观点？", "domain": "学术", "ground_truth": "认可AI在数学能力上的进步，但指出IMO无法验证这些模型的方法（包括计算资源是否有人类干预、是否可重现），同时强调无论由优秀学生还是AI模型产生的正确数学证明均有效", "answer_type": "entity"}
+{"query": "第66届IMO的举办地点是否为阳光海岸？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "第66届IMO中，IMO总裁格雷戈尔·多利纳关于AI模型的表态包含哪些核心观点？", "domain": "学术", "ground_truth": "认可AI在数学能力上的进步，但指出IMO无法验证这些模型的方法（包括计算资源是否有人类干预、是否可重现），同时强调无论由优秀学生还是AI模型产生的正确数学证明均有效", "answer_type": "entity"}
+{"query": "IEEE SMC 2025注册费用中包含的主要会议权益有哪些？", "domain": "学术", "ground_truth": "会议材料、所有技术会议环节入场资格、欢迎招待会参与权限、会议期间的茶歇服务", "answer_type": "entity"}
+{"query": "IEEE SMC 2025针对学生的注册费用（含增值税）及对应的权益限制是什么？", "domain": "学术", "ground_truth": "费用为550欧元，权益不包含会议晚宴，需凭有效学生证件证明身份", "answer_type": "entity"}
+{"query": "IEEE SMC 2025注册费用的支付方式及相关说明有哪些？", "domain": "学术", "ground_truth": "支持信用卡在线支付，所有费用以欧元结算，支付成功后系统会自动发送电子收据", "answer_type": "entity"}
+{"query": "IEEE SMC 2025注册取消后的退款政策具体内容是什么？", "domain": "学术", "ground_truth": "2025年8月31日前取消可获80%费用退款，之后取消不予退款，退款处理需10-15个工作日", "answer_type": "entity"}
+{"query": "IEEE SMC 2025额外论文注册的费用标准及适用条件是什么？", "domain": "学术", "ground_truth": "费用为300欧元（含增值税），适用于同一第一作者提交多篇论文的情况，每篇额外论文均需单独注册", "answer_type": "entity"}
+{"query": "IEEE SMC 2025的注册系统与PaperCept同步延迟的原因及解决方式是什么？", "domain": "学术", "ground_truth": "延迟可能因系统数据处理周期导致，最长需24小时，若超过该时间未同步可联系会议注册邮箱咨询", "answer_type": "entity"}
+{"query": "IEEE SMC 2025是否为参会者提供签证邀请函？申请流程是怎样的？", "domain": "学术", "ground_truth": "提供签证邀请函，需在完成注册后通过会议官网的签证邀请函申请入口提交个人信息及注册证明，审核通过后以邮件形式发送", "answer_type": "entity"}
+{"query": "IEEE SMC 2025的会议晚宴参与方式及费用说明是什么？", "domain": "学术", "ground_truth": "需单独购买门票，费用为120欧元/人，可在注册时同步预订，名额有限售完即止", "answer_type": "entity"}
+{"query": "IEEE SMC 2025的注册类型中，针对非IEEE会员的常规注册（含增值税）在不同阶段的费用差异是什么？", "domain": "学术", "ground_truth": "早期注册费用为980欧元，晚期注册费用为1140欧元，差异在于注册截止时间（早期截止7月25日，晚期截止8月25日）", "answer_type": "entity"}
+{"query": "IEEE SMC 2025对注册信息修改的规定及操作方式是什么？", "domain": "学术", "ground_truth": "允许在会议开始前修改注册信息，需通过注册系统提交修改申请，涉及身份信息变更需上传相关证明文件，审核通过后生效", "answer_type": "entity"}
+{"query": "IEEE SMC 2025的注册是否要求参会者提前完成论文录用相关流程？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "IEEE SMC 2025的晚期注册截止时间是否在会议举办前夕？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "2025年IEEE期刊在JCR影响因子排名中表现突出的领域主要有哪些？", "domain": "学术", "ground_truth": "包括电气与电子工程、计算机科学、人工智能、物联网、可再生能源、生物医学工程等多个技术与工程交叉领域，多个期刊在所属细分学科中位列前25%", "answer_type": "entity"}
+{"query": "IEEE旗下哪些期刊在2025年CiteScore排名中进入所属学科前10%？", "domain": "学术", "ground_truth": "包括《IEEE Transactions on Pattern Analysis and Machine Intelligence》（计算机视觉与模式识别领域）、《IEEE Internet of Things Journal》（物联网领域）、《IEEE Transactions on Sustainable Energy》（可再生能源领域）等", "answer_type": "entity"}
+{"query": "2025年IEEE期刊影响因子提升的主要原因有哪些？", "domain": "学术", "ground_truth": "收录论文的跨学科影响力增强，国际合作研究成果占比提升，对新兴技术领域（如生成式AI、量子计算）的前沿成果覆盖及时，审稿流程优化带来的论文质量提升", "answer_type": "entity"}
+{"query": "IEEE在2025年期刊排名中，针对开放获取（OA）期刊的表现有何特点？", "domain": "学术", "ground_truth": "OA期刊数量较往年增长15%，其中《IEEE Open Journal of the Computer Society》《IEEE Open Journal of Signal Processing》等OA期刊的CiteScore指标首次进入所属学科前30%，显示OA模式在技术领域的认可度提升", "answer_type": "entity"}
+{"query": "2025年JCR报告中，IEEE期刊在人工智能领域的具体排名及代表性期刊是什么？", "domain": "学术", "ground_truth": "共有6本IEEE期刊进入人工智能领域前50名，其中《IEEE Transactions on Artificial Intelligence》排名第12位，《IEEE Transactions on Neural Networks and Learning Systems》排名第18位，均较上一年提升5个名次以上", "answer_type": "entity"}
+{"query": "IEEE期刊在2025年CiteScore排名中，与其他出版商相比的竞争优势体现在哪些方面？", "domain": "学术", "ground_truth": "在工程技术类学科中覆盖率最高（覆盖85%的细分领域），技术类论文的平均被引速度较行业平均水平快20%，跨学科研究论文占比达40%（高于行业平均的25%）", "answer_type": "entity"}
+{"query": "IEEE是否为2025年表现优异的期刊编辑团队提供了奖励措施？具体内容是什么？", "domain": "学术", "ground_truth": "提供了奖励措施，包括为排名前10%期刊的编辑团队颁发「杰出编辑团队奖」，并给予5000美元的期刊发展基金，用于支持学术研讨会或青年学者培训项目", "answer_type": "entity"}
+{"query": "2025年IEEE期刊的影响因子和Citescore排名是否覆盖了其全部期刊？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "IEEE在2025年是否有新创办的期刊进入JCR排名？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "2025年IEEE期刊中，影响因子增幅最大的领域是否为量子计算？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《IEEE Transactions on Industrial Electronics》的主要出版内容涵盖哪些技术领域？", "domain": "学术", "ground_truth": "包括电力电子与电机驱动、系统控制、信号处理、故障检测与诊断、可再生能源及电力系统中的电力电子应用、仪器仪表、测量与测试、建模与仿真、运动控制、机电一体化与机器人应用、传感器与执行器，以及人工智能在工业电子系统中的应用", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的影响因子、Eigenfactor和CiteScore分别是多少？", "domain": "学术", "ground_truth": "影响因子为7.2，Eigenfactor为0.09563，CiteScore为16.8", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的主办机构是什么？", "domain": "学术", "ground_truth": "IEEE Industrial Electronics Society（IEEE工业电子学会）", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的电子 ISSN 和印刷 ISSN 分别是什么？", "domain": "学术", "ground_truth": "电子 ISSN 为1557-9948，印刷 ISSN 为0278-0046", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的主编及所属机构是什么？", "domain": "学术", "ground_truth": "主编是Yang Shi，隶属于加拿大维多利亚大学（University of Victoria, Victoria, BC, Canada）", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的出版频率是怎样的？", "domain": "学术", "ground_truth": "每年出版12期", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》涉及的学科领域有哪些？", "domain": "学术", "ground_truth": "通信、网络与广播技术；电力、能源与工业应用；信号处理与分析", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》发表的论文是否要求具备实验验证？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《IEEE Transactions on Industrial Electronics》的Article Influence Score是否为1.934？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "《IEEE Transactions on Industrial Electronics》是否收录人工智能在工业电子系统中的应用相关论文？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《IEEE Transactions on Industrial Electronics》2025年常规论文的页数限制及费用规定是什么？", "domain": "学术", "ground_truth": "首次提交最多10页（严格执行），修订版最多12页；2025年1月1日后，前10页免费，从第11页起需支付超页费用", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的文章处理费（APC）在2024年和2025年分别是多少，有哪些折扣政策？", "domain": "学术", "ground_truth": "2024年提交的文章APC为2495美元，2025年为2645美元；IEEE会员享受5%折扣，IEEE学会会员享受20%折扣，折扣不可叠加，且不适用于本科生和研究生", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》对作者使用人工智能生成内容的要求是什么？", "domain": "学术", "ground_truth": "根据IEEE PSPB运营手册，文章中使用的人工智能生成内容（包括但不限于文本、图表、图像和代码）必须在致谢部分披露，该要求自发布之日起生效", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》对论文修订时间延期申请的政策有何规定？", "domain": "学术", "ground_truth": "2023年7月1日起，仅在特殊情况下考虑延期申请，且需提供相关证明；非英语国家作者需提供原始文件及认证翻译件", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》对作者邮箱地址的要求是什么？", "domain": "学术", "ground_truth": "自2021年4月1日起，所有作者在投稿中列出的主要邮箱地址必须是机构邮箱，非机构邮箱仅可作为主要抄送邮箱；不遵守此要求的论文将不进入评审流程", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的TIE Letters在页数和费用上有哪些规定？", "domain": "学术", "ground_truth": "首次提交限制在4页，修订后最多6页；超过6页将不予发表，第5页（如适用，第6页）需支付超页费用", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》的主编及任期信息是什么？", "domain": "学术", "ground_truth": "现任主编为Yang Shi，任期2025-2027年，隶属于加拿大维多利亚大学；前任主编为Emil Levi，任期2019-2024年，隶属于英国利物浦约翰摩尔斯大学", "answer_type": "entity"}
+{"query": "《IEEE Transactions on Industrial Electronics》是否接受特殊专题（Special Sections）的投稿？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "《IEEE Transactions on Industrial Electronics》的同行评审方式是否为单盲评审？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《IEEE Transactions on Industrial Electronics》在2023年2月之后是否还会因COVID-19批准论文修订延期？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "IES会议政策和指南的制定目的是什么？", "domain": "学术", "ground_truth": "旨在补充IEEE通用会议指南，并使其适应IES会议的特殊性，以助力IES实现技术领先、丰富专业环境、促进多方合作等战略目标", "answer_type": "entity"}
+{"query": "根据IES 2013-2018战略计划，IES会议在技术发展方面需达成哪些目标？", "domain": "学术", "ground_truth": "包括举办高质量会议、响应技术发展开发新会议、通过新举措推动会议发展、改进会议质量监控和管理流程，以保持IES在技术进步中的前沿地位", "answer_type": "entity"}
+{"query": "IES会议在丰富专业环境方面，针对参会者有哪些具体举措？", "domain": "学术", "ground_truth": "增加包括低收入国家在内的参会者数量、确保国际参会者构成平衡、保证会议地点在全球的地理分布、提供可负担的参会费用且包含技术内容及社会/文化活动、吸引新成员尤其是学生和青年专业人士等", "answer_type": "entity"}
+{"query": "IES会议政策和指南中提到的“conferences”涵盖哪些范围？", "domain": "学术", "ground_truth": "既包括会议（conferences）也包括研讨会（workshops）", "answer_type": "entity"}
+{"query": "IES的 Majority Sponsored（MS）会议和Non-majority Sponsored（NS）会议的区别是什么？", "domain": "学术", "ground_truth": "Majority Sponsored（MS）会议是指IES拥有至少50%财务份额的会议；Non-majority Sponsored（NS）会议是指IES有财务份额但低于50%的会议", "answer_type": "entity"}
+{"query": "IES会议政策和指南中，关于促进与利益相关者合作的方式有哪些？", "domain": "学术", "ground_truth": "共同组织会议以促进多学科研究、为利益相关的会议提供技术共同赞助、与兄弟学会合作在新兴领域发起新会议", "answer_type": "entity"}
+{"query": "IES会议政策和指南的附录包含哪些内容？", "domain": "学术", "ground_truth": "包括与IES主要赞助会议组织者的运营协议、IECON、ISIE和ICIT当前的轨道列表、IES主要赞助会议的时间线图表、IECON、ISIE和ICIT参与者的会后调查", "answer_type": "entity"}
+{"query": "IES会议是否需要检查技术共同赞助会议提交给IEEE Xplore®的内容？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "IES会议政策和指南中，Document #4的内容是否涉及会议预算和财务？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "IES会议在拓展影响力方面，是否包含利用网络和社交媒体等在线环境的举措？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "Global Neurodegeneration Proteomics Consortium（GNPC）的创建目标是什么？", "domain": "学术", "ground_truth": "构建全球最大的神经退行性疾病（如阿尔茨海默病、帕金森病、肌萎缩侧索硬化症）数据发现项目，并向研究界共享数据", "answer_type": "entity"}
+{"query": "GNPC在成立第一年对血液和脊髓液中的蛋白质测量数量是多少？", "domain": "学术", "ground_truth": "2.5亿次", "answer_type": "entity"}
+{"query": "GNPC研究中关于APOE4基因的重要发现有哪些？", "domain": "学术", "ground_truth": "识别出特定血液特征，能以99%的置信度判断某人是否携带高风险APOE4基因拷贝，还揭示了该基因在炎症和感染反应中的作用", "answer_type": "entity"}
+{"query": "GNPC包含的临床数据样本数量及提供样本的合作伙伴数量分别是多少？", "domain": "学术", "ground_truth": "超过40000份临床数据样本，由来自私营部门、学术界等的20多个合作伙伴提供", "answer_type": "entity"}
+{"query": "CONSORT 2025声明的核心目的是什么？", "domain": "学术", "ground_truth": "为随机试验报告提供一套最低限度的必备项目清单，以提高报告质量，确保试验设计、实施、分析和结果的报告清晰、完整且透明，便于读者准确解读和评估试验", "answer_type": "entity"}
+{"query": "CONSORT 2025与SPIRIT 2025的协同作用体现在哪些方面？", "domain": "学术", "ground_truth": "两者概念关联、内容重叠，2020年合并为一个工作组同步更新；通过协调清单措辞，提供从试验方案到最终发表的一致指导，增强报告流程的协调性，提高可用性和依从性，促进更完整的报告", "answer_type": "entity"}
+{"query": "CONSORT 2025中新增的关于数据共享的清单项目具体要求是什么？", "domain": "学术", "ground_truth": "需说明个体去标识化参与者数据、统计代码及其他相关材料的获取途径和方式", "answer_type": "entity"}
+{"query": "CONSORT扩展涵盖哪些类型的试验和内容？", "domain": "学术", "ground_truth": "试验设计类包括适应性设计、集群试验、交叉试验等；其他内容包括非药物治疗、结局指标、患者报告结局、替代结局、社会心理干预、伤害、摘要、健康公平等", "answer_type": "entity"}
+{"query": "CONSORT 2025的扩展版清单有何特点？", "domain": "学术", "ground_truth": "包含每个清单项目关键要素的要点，是CONSORT 2025解释说明文档的精简版（去除示例和参考文献），旨在帮助用户更易实施该声明", "answer_type": "entity"}
+{"query": "CONSORT 2025的制定过程中，德尔菲调查的参与者涉及哪些群体？", "domain": "学术", "ground_truth": "包括统计学家/方法学家/流行病学家、系统评价者/指南制定者、试验研究者、临床医生、期刊编辑、患者代表等（人数不互斥）", "answer_type": "entity"}
+{"query": "CONSORT 2025是否适用于非平行设计的随机试验？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "CONSORT 2025是否包含对试验设计、实施或分析的具体建议？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "CONSORT 2025是否建议将完整的清单作为手稿提交的补充材料？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "CONSORT 2025是否会定期更新？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《Nature Medicine》要求作者在提交手稿前需遵守的核心政策类别有哪些？", "domain": "学术", "ground_truth": "包括作者身份、致谢、利益冲突、保密性、更正与撤回、研究伦理、图像完整性、同行评审、剽窃与重复发表、预印本与会议论文集、新闻与 embargo 政策、数据材料等可用性、自我存档、临床研究、尊重沟通、申诉与投诉、人工智能、专题集等", "answer_type": "entity"}
+{"query": "《Nature Medicine》对重叠投稿的政策规定是什么？", "domain": "学术", "ground_truth": "提交的手稿内容不得与作者或其合著者团队正在其他期刊审议或即将发表的任何其他论文有显著重叠，但会议摘要除外；若在本刊审议期间向其他期刊提交相关手稿，需向本刊发送该相关手稿副本及发表进展详情", "answer_type": "entity"}
+{"query": "《Nature Medicine》在同行评审前可能要求作者提供哪些文件？", "domain": "学术", "ground_truth": "包括编辑政策清单（确保符合研究伦理、可重复性等政策）、报告摘要（生命科学等领域用于支持透明报告）、临床研究指南相关材料（临床科学领域）、特定物理科学领域的表征等详情、软件提交清单（含核心新代码的论文）", "answer_type": "entity"}
+{"query": "《Nature Medicine》遵循哪些组织关于临床研究注册和报告的建议？", "domain": "学术", "ground_truth": "遵循国际医学期刊编辑委员会（ICMJE）和健康研究质量与透明度提升网络（EQUATOR Network）的建议", "answer_type": "entity"}
+{"query": "《Nature Medicine》对包含核心新代码的论文有何特殊要求？", "domain": "学术", "ground_truth": "作者需要提供软件提交清单，详细说明代码信息以供同行评审评估", "answer_type": "entity"}
+{"query": "《Nature Medicine》在什么情况下可能拒绝已接受的论文发表？", "domain": "学术", "ground_truth": "当发现论文存在严重的科学内容问题或违反出版政策时，即使已接受也可能拒绝发表", "answer_type": "entity"}
+{"query": "《Nature Medicine》是否支持作者发布预印本？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《Nature Medicine》的报告摘要适用于所有学科领域的手稿吗？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "《Nature Medicine》的编辑政策是否涵盖人工智能相关内容？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《Nature Medicine》要求相关手稿在其他期刊投稿时需向其同步提交副本吗？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《Nature Methods》中Article类型的主要内容和格式要求是什么？", "domain": "学术", "ground_truth": "内容为描述新颖方法或工具的报告，需提供完整技术说明及验证数据以证明性能、可重复性等；格式包括150字以内无参考文献的摘要，3000-5000字（不含摘要等）的正文（分引言、结果、讨论、在线方法，结果和方法设子标题），最多6个图表，最多50篇参考文献，可附补充信息，包含收稿/接受日期，需同行评审", "answer_type": "entity"}
+{"query": "《Nature Methods》中Brief Communication的适用范围和格式特点是什么？", "domain": "学术", "ground_truth": "适用于简洁报告潜在突破性但初步的方法工具进展、实用改进、软件平台、广泛关注的资源及技术评论；格式为70字以内无参考文献的摘要，1200-1600字（含摘要等）的正文（无章节和子标题），最多2-3个图表，含带子标题的在线方法，最多20篇参考文献，可附补充信息，包含收稿/接受日期，需同行评审", "answer_type": "entity"}
+{"query": "《Nature Methods》中Registered Report与Analysis的主要区别是什么？", "domain": "学术", "ground_truth": "Registered Report分两阶段同行评审，第一阶段评审详细实验设计方案（数据收集前），通过后原则上临时接受，第二阶段评审结果和讨论且不因新颖性等拒绝；Analysis为已完成的成熟相关方法工具的综合性能比较，按传统流程评审", "answer_type": "entity"}
+{"query": "《Nature Methods》中Review和Perspective的异同点有哪些？", "domain": "学术", "ground_truth": "相同点：均为综述类，常由期刊约稿，可接受选题建议，需同行评审，鼓励配图。不同点：Review针对成熟技术，范围广、内容深入平衡，最多8000字、100篇参考文献，需提供实用建议；Perspective针对较新技术，范围较窄，可含强烈观点，最多6000字、50篇参考文献", "answer_type": "entity"}
+{"query": "《Nature Methods》中Comment类型的内容要求和格式是什么？", "domain": "学术", "ground_truth": "内容为关于生命科学方法开发相关的科学、商业等领域的观点，需 topical、具可读性和启发性，可提社区指南，不含原始研究数据（可含社会科学数据）；格式通常不超过2000字，鼓励设子标题，最多15篇参考文献（省略文章标题），同行评审由编辑决定", "answer_type": "entity"}
+{"query": "《Nature Methods》中Matters Arising的提交对象和要求是什么？", "domain": "学术", "ground_truth": "针对该刊发表的原始研究论文，提供极具趣味性和时效性的科学评论与澄清，基于当代知识而非后续科学进展，需遵循专门的提交流程", "answer_type": "entity"}
+{"query": "《Nature Methods》中的News & Views是否接受未约稿的投稿？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "《Nature Methods》中的Resource类型是否需要同行评审？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "《Nature Methods》中的Correspondence是否包含新的研究数据或分析？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "《Nature Methods》中的Points of Significance是否为同行评审内容？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "成为IEEE审稿人需要完成的初始步骤是什么？", "domain": "学术", "ground_truth": "需为目标出版物的投稿网站创建账户，选择能准确描述自身专业领域的关键词，之后姓名会被加入潜在审稿人池，出版物会根据文章主题匹配并发送审稿邀请", "answer_type": "entity"}
+{"query": "IEEE审稿人收到审稿邀请后，应考虑哪些因素再决定是否接受？", "domain": "学术", "ground_truth": "需考虑自身是否对文章主题领域有足够专业知识，以及能否在邀请中规定的截止日期前完成审稿工作", "answer_type": "entity"}
+{"query": "IEEE审稿过程中，审稿人评估文章时需关注哪些要点？", "domain": "学术", "ground_truth": "包括作者是否呈现最新文献综述以证明工作新颖性、结果是否新颖且对领域有意义、文章是否适合该出版物、研究设计和执行是否良好、是否符合所有出版要求（含伦理要求）、数据报告和分析是否正确、结果解释是否恰当且不过度推测、文章是否用清晰简洁的英语撰写", "answer_type": "entity"}
+{"query": "IEEE审稿人撰写审稿报告时需遵循哪些原则？", "domain": "学术", "ground_truth": "应对工作进行客观专业的评价，建设性地指出不足或不一致之处，改进建议应有用且具体，聚焦于评论文章而非作者", "answer_type": "entity"}
+{"query": "IEEE关于审稿中使用人工智能生成文本的政策是什么？", "domain": "学术", "ground_truth": "根据IEEE出版物服务与产品委员会（PSPB）运营手册第8.2.2.A.4节，不得通过公共平台（直接或间接）将审稿中的手稿信息或内容用于人工智能生成审稿文本，此举因AI系统通常会从输入中学习而被视为违反保密性", "answer_type": "entity"}
+{"query": "IEEE审稿人在审稿过程中需注意哪些保密和伦理事项？", "domain": "学术", "ground_truth": "若怀疑存在剽窃或其他伦理问题，需立即通知编辑；正在评审的文章及审稿意见均属机密，不得与任何人分享", "answer_type": "entity"}
+{"query": "IEEE审稿人是否需要负责纠正作者的语言或语法错误？", "domain": "学术", "ground_truth": false, "answer_type": "boolean"}
+{"query": "如果文章经过修订，IEEE审稿人可能会被要求再次评审更新版本吗？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "IEEE是否提供关于审稿流程的视频指导？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "当IEEE审稿人无法接受审稿邀请时，是否可以推荐其他潜在审稿人？", "domain": "学术", "ground_truth": true, "answer_type": "boolean"}
+{"query": "2025年6月20日《Science Advances》第11卷第25期的在线封面内容是什么？", "domain": "学术", "ground_truth": "展示了量子计算中的量子比特（qubit），介绍了Robledo Moreno等人利用Heron超导处理器和超级计算机Fugaku进行电子结构模拟，使用多达77个量子比特研究[4Fe-4S]分子簇的基态性质，表明在这种大尺寸下可获得有用的量子信号，可用于化学计算及更广泛的量子计算应用，图片由IBM提供", "answer_type": "entity"}
+{"query": "《Science Advances》2025年6月20日刊中，关于社会网络结构的研究得出了什么结论？", "domain": "学术", "ground_truth": "在不断演变的社会网络中，对社区结构的准确认知先于并能预测个体能否获得影响力，即早期洞察社会网络结构可预测个体能否提升社会地位", "answer_type": "entity"}
+{"query": "《Science Advances》2025年6月20日刊中，关于媒体竞争与虚假信息传播的研究采用了什么方法，得出了什么结论？", "domain": "学术", "ground_truth": "采用博弈论建模方法，研究发现新闻来源之间为争夺公众舆论而产生的竞争，会激励它们传播更多虚假信息，尽管传播虚假信息可能带来短期的受众参与度提升，但最终会损害来源的可信度并导致受众流失", "answer_type": "entity"}

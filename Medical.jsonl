@@ -1,0 +1,200 @@
+{"query":"派安普利单抗注射液是否获得FDA批准用于治疗复发或转移性鼻咽癌？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"派安普利单抗注射液受到了哪些资格认证？","domain":"医疗","ground_truth":"突破性疗法认定（BTD）、孤儿药资格（ODD）和快速通道（FTD）三重认证","answer_type":"entity"}
+{"query":"阿兹夫定是否被中国国家药监局批准用于治疗COVID-19？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"2021年7月20日，国家药监局对某个产品和其他逆转录酶抑制剂联用治疗高病毒载量的成年HIV-1感染患者，那个产品是什么？","domain":"医疗","ground_truth":"阿兹夫定片","answer_type":"entity"}
+{"query":"对于急性肺栓塞患者，《急性肺栓塞诊断和治疗指南 2025》推荐的抗凝治疗疗程中，特发性肺栓塞患者至少需要抗凝多久？","domain":"医疗","ground_truth":"3 个月，对于无出血风险且存在潜在血栓形成倾向的患者，可考虑延长抗凝治疗","answer_type":"entity"}
+{"query":"《急性肺栓塞诊断和治疗指南 2025》指出，急性肺栓塞患者溶栓治疗的时间窗通常为发病后多久？","domain":"医疗","ground_truth":"14 天内，对于部分病情进展的患者，即使超过 14 天仍可考虑溶栓","answer_type":"entity"}
+{"query":"《急性肺栓塞诊断和治疗指南 2025》中，对于急性肺栓塞患者，在抗凝治疗过程中发生大出血时，推荐使用的拮抗剂是什么？","domain":"医疗","ground_truth":"华法林相关出血用维生素 K，直接凝血酶抑制剂相关出血用依达赛珠单抗，Xa 因子抑制剂相关出血用 andexanet alfa 或凝血酶原复合物","answer_type":"entity"}
+{"query":"《中国高血压防治指南（2025 年修订版）》将高血压的诊断标准调整为多少？","domain":"医疗","ground_truth":"收缩压≥130mmHg 和（或）舒张压≥80mmHg，与国际多个权威指南保持一致","answer_type":"entity"}
+{"query":"《中国 2 型糖尿病防治指南（2025 年版）》中，对于 2 型糖尿病患者，推荐的每日膳食纤维摄入量是多少？","domain":"医疗","ground_truth":"25-30g，可通过增加全谷物、蔬菜、水果等食物摄入实现","answer_type":"entity"}
+{"query":"支气管哮喘是否是一种常见的慢性气道疾病？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"肺血栓栓塞症（PTE）严重时是否会引发右心功能衰竭甚至猝死？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"系统性红斑狼疮（SLE）是一种系统性自身免疫性疾病","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"目前普遍采用的美国风湿病学会（ACR）1997 年推荐的 SLE 分类标准中，符合几项可诊断为 SLE？","domain":"医疗","ground_truth":"符合 4 项或 4 项以上者，在除外感染、肿瘤和其他结缔组织病后，可诊断为 SLE","answer_type":"entity"}
+{"query":"系统性红斑狼疮（SLE）患者出现狼疮危象时，推荐的治疗方法是什么？","domain":"医疗","ground_truth":"推荐使用激素冲击治疗联合免疫抑制剂进行治疗。激素冲击治疗为甲泼尼龙 500 - 1000mg，静脉滴注每天 1 次，连用 3 - 5 天为 1 疗程，疗程间隔 5 - 30d。冲击治疗后改口服泼尼松或等效剂量的其他激素，通常治疗时间为 4 - 8 周，但具体疗程应视病情而定","answer_type":"entity"}
+{"query":"《国家基层肥胖症综合管理技术指南（2025）》中，BMI≥28 kg/m² 的肥胖症患者，经过 3 个月饮食和运动干预仍不能减重 5%，是否推荐减重药物治疗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"BMI≥24 kg/m² 的肥胖症患者，合并高血糖、高血压等并发症时，是否可考虑药物辅助治疗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"肥胖症患者药物治疗有效的标准中，糖尿病患者体重下降需达到多少？","domain":"医疗","ground_truth":">3%","answer_type":"entity"}
+{"query":"子痫前期是否是妊娠期常见的并发症？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"子痫前期患者常见的临床表现有哪些？","domain":"医疗","ground_truth":"妊娠20周后出现收缩压≥140mmHg和（或）舒张压≥90mmHg，伴有蛋白尿，或无蛋白尿但伴有血小板减少、肝功能损害、肾功能损害、肺水肿、新发生的中枢神经系统异常或视觉障碍等","answer_type":"entity"}
+{"query":"严重过敏反应患者在治疗时，是否需要积极移除过敏原？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"除肾上腺素外，严重过敏反应治疗时还可使用哪些辅助药物？","domain":"医疗","ground_truth":"抗组胺药、β2受体激动剂、糖皮质激素等","answer_type":"entity"}
+{"query":"二氢吡啶类钙通道阻滞剂的典型代表药物有哪些？","domain":"医疗","ground_truth":"硝苯地平、氨氯地平、尼莫地平、尼卡地平等","answer_type":"entity"}
+{"query":"钙通道阻滞剂（CCBs）是否会使细胞内钙离子水平降低？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"严重钙通道阻滞剂中毒时，常用的解毒药物是什么？","domain":"医疗","ground_truth":"葡萄糖酸钙，可通过增加细胞外钙离子浓度，对抗钙通道阻滞剂的作用","answer_type":"entity"}
+{"query":"肥厚型心肌病患者最常见的症状是什么？","domain":"医疗","ground_truth":"劳力性呼吸困难和乏力，部分患者可有胸痛、心悸、晕厥等症状","answer_type":"entity"}
+{"query":"慢加急性肝衰竭是否具有潜在可逆性？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"针对慢加急性肝衰竭，常见的治疗手段有哪些？","domain":"医疗","ground_truth":"针对病因治疗（如抗病毒治疗乙肝病毒感染、停用可疑药物治疗药物性肝损伤等）、支持治疗、人工肝支持治疗、肝移植等","answer_type":"entity"}
+{"query":"代谢相关脂肪性肝病（MAFLD）的诊断是否需要排除过量饮酒？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"评估代谢相关脂肪性肝病（MAFLD）患者进展期肝纤维化风险时，首先采用的无创血液学评分是什么？","domain":"医疗","ground_truth":"FIB-4指数","answer_type":"entity"}
+{"query":"代谢相关脂肪性肝病（MAFLD）患者常见的代谢综合征组分包括哪些？","domain":"医疗","ground_truth":"腹型肥胖、高血糖、高血压、血脂异常等","answer_type":"entity"}
+{"query":"老年上消化道出血患者的病因是否与其他年龄阶段人群存在差异？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"老年上消化道出血最常见的病因是什么？","domain":"医疗","ground_truth":"消化性溃疡，其次为食管胃底静脉曲张破裂、急性糜烂出血性胃炎、胃癌等","answer_type":"entity"}
+{"query":"延缓慢性肾脏病（CKD）进展是否需要改善生活方式？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"慢性肾脏病（CKD）进展相关的危险因素包括哪些？","domain":"医疗","ground_truth":"高血压、高血糖和蛋白尿等","answer_type":"entity"}
+{"query":"延缓慢性肾脏病（CKD）进展的生活方式改善措施中，是否包括适量的中等强度或力量训练？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"血管紧张素转换酶抑制剂（ACEI）是否对心脏、血管和肾脏具有保护作用？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"高血压治疗的基石性用药是什么？","domain":"医疗","ground_truth":"血管紧张素转换酶抑制剂（ACEI）","answer_type":"entity"}
+{"query":"血管紧张素转换酶抑制剂（ACEI）是否可用于心力衰竭的治疗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"血管紧张素转换酶抑制剂（ACEI）最常见的不良反应是什么？","domain":"医疗","ground_truth":"干咳，发生率约为10%-20%，多为刺激性干咳，夜间或卧位时加重","answer_type":"entity"}
+{"query":"血管紧张素转换酶抑制剂（ACEI）是否可能导致血钾升高？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"《中国狼疮肾炎诊治和管理指南（2025版）》中，狼疮足细胞病反复复发者是否推荐加用RTX？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"《中国狼疮肾炎诊治和管理指南（2025版）》中，Ⅲ/Ⅳ型（伴或不伴Ⅴ型）LN诱导治疗新增的三联免疫抑制方案是什么？","domain":"医疗","ground_truth":"激素联合MMF或IV-CYC和BEL的三联免疫抑制方案","answer_type":"entity"}
+{"query":"《中国狼疮肾炎诊治和管理指南（2025版）》中，狼疮足细胞病的诱导治疗方案是什么？","domain":"医疗","ground_truth":"单用激素或联合MMF/Tac诱导","answer_type":"entity"}
+{"query":"狼疮肾炎是否是系统性红斑狼疮最常见的内脏损害？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"狼疮肾炎患者是否需要定期监测肾功能和尿蛋白？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"长期高尿酸血症（HUA）是否可能导致肾结石？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"高尿酸血症（HUA）患者出现肾功能损害时，是否属于高危高尿酸血症范畴？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"高尿酸血症（HUA）合并代谢性疾病的患者，是否需要更早启动药物降尿酸治疗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"常用的降尿酸药物主要分为哪几类？","domain":"医疗","ground_truth":"抑制尿酸生成的药物（如别嘌醇、非布司他）和促进尿酸排泄的药物（如苯溴马隆）","answer_type":"entity"}
+{"query":"高尿酸血症（HUA）患者在药物降尿酸治疗期间，是否需要定期监测血尿酸水平？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"嗜酸性肉芽肿性多血管炎（EGPA）是什么类型的疾病？","domain":"医疗","ground_truth":"自身免疫性疾病","answer_type":"entity"}
+{"query":"嗜酸性肉芽肿性多血管炎（EGPA）患者是否常见肺部受累？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"轻型卒中是否通常指缺血性卒中？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"中国过去十余年，轻型卒中患者就诊时比例从多少升至多少？","domain":"医疗","ground_truth":"从43.1%升至51.7%","answer_type":"entity"}
+{"query":"轻型卒中患者出院时不能独立行走的比例是多少？","domain":"医疗","ground_truth":"超过1/4","answer_type":"entity"}
+{"query":"全球轻型卒中患者1年内的全因病死率是多少？","domain":"医疗","ground_truth":"1.8%","answer_type":"entity"}
+{"query":"亚洲轻型卒中患者1年内的卒中复发率是多少？","domain":"医疗","ground_truth":"6.0%","answer_type":"entity"}
+{"query":"中国轻型卒中患者1年内的病死率是多少？","domain":"医疗","ground_truth":"6.3%","answer_type":"entity"}
+{"query":"在中国CHANCE研究、CHANCE - 2研究不同治疗组中，轻型卒中患者1年内卒中复发率的范围是多少？","domain":"医疗","ground_truth":"7% - 14%","answer_type":"entity"}
+{"query":"轻型卒中患者发病72h内出现早期神经功能恶化的比例约为多少？","domain":"医疗","ground_truth":"4% - 10%","answer_type":"entity"}
+{"query":"轻型卒中患者合并大血管闭塞时，发生神经功能恶化的比率高达多少？","domain":"医疗","ground_truth":"39%","answer_type":"entity"}
+{"query":"发病4.5h内的非致残性轻型卒中患者，《轻型卒中临床诊疗中国专家共识（2024版）》推荐选择静脉溶栓还是双联抗血小板治疗的依据是什么？","domain":"医疗","ground_truth":"根据患者的获益/风险比选择","answer_type":"entity"}
+{"query":"发病24h内LVO所致急性轻型非致残性卒中患者，《轻型卒中临床诊疗中国专家共识（2024版）》对其进行积极血管内治疗持什么态度？","domain":"医疗","ground_truth":"不建议进行积极的血管内治疗","answer_type":"entity"}
+{"query":"病因是大动脉粥样硬化型的轻型卒中患者在发病72h内进行双联抗血小板治疗有什么影响？","domain":"医疗","ground_truth":"可能获益，但会增加出血风险","answer_type":"entity"}
+{"query":"评估轻型卒中1年及以上再发卒中风险，《轻型卒中临床诊疗中国专家共识（2024版）》推荐使用哪些评分？","domain":"医疗","ground_truth":"ESRS或SPI评分","answer_type":"entity"}
+{"query":"《银屑病关节炎早期识别与诊治专家共识（2025版）》中提到银屑病关节炎进展分几个阶段？分别是什么？","domain":"医疗","ground_truth":"分为3个阶段，分别是高风险期、亚临床期及临床期","answer_type":"entity"}
+{"query":"甲银屑病患者发生银屑病关节炎的可能性是无甲损害患者的几倍？","domain":"医疗","ground_truth":"3倍","answer_type":"entity"}
+{"query":"当银屑病患者出现哪些肌肉骨骼症状时，提示近期可能发生银屑病关节炎？","domain":"医疗","ground_truth":"关节及其周围软组织疼痛、附着点部位疼痛、下腰部疼痛","answer_type":"entity"}
+{"query":"亚临床期银屑病关节炎患者，在什么情况下推荐视同银屑病关节炎启动治疗？","domain":"医疗","ground_truth":"关节明显疼痛并伴有影像学滑膜炎、附着点炎或骶关节炎证据时","answer_type":"entity"}
+{"query":"在银屑病关节炎早期筛查与识别困难时，多学科联合诊疗涉及的主要科室有哪些？","domain":"医疗","ground_truth":"风湿免疫科、皮肤科及影像学科","answer_type":"entity"}
+{"query":"银屑病关节炎患者出现指甲病变的比例是多少？常见的指甲病变有哪些？","domain":"医疗","ground_truth":"80%；顶针样凹陷、甲脱落、甲下角化过度、增厚、横嵴及变色","answer_type":"entity"}
+{"query":"在考虑银屑病关节炎早期诊断时，需要与哪些疾病进行鉴别？","domain":"医疗","ground_truth":"类风湿关节炎、强直性脊柱炎、骨关节炎及痛风等","answer_type":"entity"}
+{"query":"对于银屑病关节炎，物理治疗方法都包含哪些？","domain":"医疗","ground_truth":"水疗、热疗、按摩、针灸等","answer_type":"entity"}
+{"query":"类风湿关节炎是否属于自身免疫病？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"类风湿关节炎是否是我国人群致残的重要原因之一？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"仑卡奈单抗是否属于靶向β-淀粉样蛋白的单克隆抗体？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"靶向β-淀粉样蛋白的单克隆抗体已在哪些国家批准上市用于治疗阿尔茨海默病源性轻度认知障碍和轻度AD痴呆？","domain":"医疗","ground_truth":"美国、日本及中国","answer_type":"entity"}
+{"query":"阿尔茨海默病治疗进入疾病修饰治疗时代的标志是什么？","domain":"医疗","ground_truth":"靶向β-淀粉样蛋白的单克隆抗体（以仑卡奈单抗为代表）陆续在多个国家批准上市用于治疗阿尔茨海默病源性轻度认知障碍和轻度AD痴呆","answer_type":"entity"}
+{"query":"阿尔茨海默病源性轻度认知障碍的英文缩写是什么？","domain":"医疗","ground_truth":"MCI","answer_type":"entity"}
+{"query":"混合性认知障碍的英文缩写是什么？","domain":"医疗","ground_truth":"MixCI","answer_type":"entity"}
+{"query":"血管性认知障碍的英文缩写是什么？","domain":"医疗","ground_truth":"VCI","answer_type":"entity"}
+{"query":"混合性认知障碍在临床中是否常见？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"失眠是否属于常见的睡眠问题？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"月经性偏头痛包括哪两种类型？","domain":"医疗","ground_truth":"单纯月经性偏头痛与月经相关性偏头痛","answer_type":"entity"}
+{"query":"月经期的偏头痛发作是否具有什么特点？","domain":"医疗","ground_truth":"疼痛程度重、致残性强","answer_type":"entity"}
+{"query":"月经期的偏头痛发作对急性期治疗药物的反应性如何？","domain":"医疗","ground_truth":"反应性差","answer_type":"entity"}
+{"query":"老年人血脂异常调脂治疗中，首选药物是什么？","domain":"医疗","ground_truth":"他汀类药物","answer_type":"entity"}
+{"query":"《老年人血脂异常管理中国专家共识》推荐老年人使用他汀类药物的剂量范围是什么？","domain":"医疗","ground_truth":"低、中剂量","answer_type":"entity"}
+{"query":"当使用可耐受剂量的他汀类药物后LDL-C仍不达标时，可加用哪些药物？","domain":"医疗","ground_truth":"依折麦布或/和PCSK9抑制剂","answer_type":"entity"}
+{"query":"ASCVD或极高危老年患者LDL-C达标但TG升高时，可加用的药物有哪些？其中优先推荐的是什么？","domain":"医疗","ground_truth":"贝特类药物或/和鱼油制剂，优先推荐高纯度EPA","answer_type":"entity"}
+{"query":"PCSK9抑制剂是否可与他汀类药物联合用于老年人血脂异常的调脂治疗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"热射病是否属于热损伤因素导致的致命性疾病？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"热射病在哪些场景中是常见疾病？","domain":"医疗","ground_truth":"热环境下的体育竞技和军事训练中","answer_type":"entity"}
+{"query":"2018年的研究显示，急诊医护人员对热射病诊断要点和救治要点的掌握比率分别是多少？","domain":"医疗","ground_truth":"诊断要点掌握比率为30.9%，救治要点掌握比率为13.3%","answer_type":"entity"}
+{"query":"急诊是否是热射病救治的重要关口？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"热射病防治过程中常见的问题有哪些？","domain":"医疗","ground_truth":"误诊漏诊、对其严重程度估计不足、治疗方案实施不正确","answer_type":"entity"}
+{"query":"动脉粥样硬化多见于哪些人群？","domain":"医疗","ground_truth":"中老年人群","answer_type":"entity"}
+{"query":"《动脉粥样硬化性缺血性卒中/短暂性脑缺血发作合并冠心病诊治中国专家共识（2022）》将相关病症分为哪几类？","domain":"医疗","ground_truth":"脑-心综合征、急性冠脉综合征（ACS）相关IS/TIA、动脉粥样硬化性IS/TIA与CHD共存三大类","answer_type":"entity"}
+{"query":"短暂性脑缺血发作的英文缩写是什么？","domain":"医疗","ground_truth":"TIA","answer_type":"entity"}
+{"query":"在急性期治疗时间窗内，针对卒中可采取哪些治疗方式？","domain":"医疗","ground_truth":"静脉溶栓和（或）血管内治疗","answer_type":"entity"}
+{"query":"针对冠心病，可采取的颈动脉干预方式有哪些？","domain":"医疗","ground_truth":"颈动脉支架成形术（CAS）或颈动脉内膜剥脱术（CEA）","answer_type":"entity"}
+{"query":"冠状动脉旁路移植术的英文缩写是什么？","domain":"医疗","ground_truth":"CABG","answer_type":"entity"}
+{"query":"经皮冠状动脉介入的英文缩写是什么？","domain":"医疗","ground_truth":"PCI","answer_type":"entity"}
+{"query":"《动脉粥样硬化性缺血性卒中/短暂性脑缺血发作合并冠心病诊治中国专家共识（2022）》在二级预防方面推荐了哪些措施？","domain":"医疗","ground_truth":"危险因素控制、生活方式改变等措施，以及积极进行心脏和神经康复治疗","answer_type":"entity"}
+{"query":"该专家共识的来源期刊是什么？发表的卷期是多少？","domain":"医疗","ground_truth":"中华医学杂志，2022年102(45)","answer_type":"entity"}
+{"query":"急性冠脉综合征的英文缩写是什么？","domain":"医疗","ground_truth":"ACS","answer_type":"entity"}
+{"query":"骨质疏松性骨折是否是骨质疏松症的严重阶段？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"骨质疏松性骨折具有哪些特点？","domain":"医疗","ground_truth":"发病率高、致残致死率高、医疗花费高","answer_type":"entity"}
+{"query":"骨质疏松性骨折多见于哪个人群？","domain":"医疗","ground_truth":"中老年人群","answer_type":"entity"}
+{"query":"子宫颈癌是否是全球女性常见的恶性肿瘤之一？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"在中国女性恶性肿瘤中，子宫颈癌的发病率和死亡率位列第几？","domain":"医疗","ground_truth":"第5位","answer_type":"entity"}
+{"query":"支原体是否属于原核细胞微生物？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"支原体可能会造成哪些生殖道相关疾病？","domain":"医疗","ground_truth":"尿道炎、子宫颈炎、盆腔炎等","answer_type":"entity"}
+{"query":"正常人群中支原体的携带率是否较高？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"按照《中国妊娠期糖尿病母儿共同管理指南（2024版）》，GDM孕妇每日早、中、晚三餐能量分别应控制在每日摄入总能量的什么比例？","domain":"医疗","ground_truth":"早餐10% - 15%、中餐30%、晚餐30%","answer_type":"entity"}
+{"query":"《中国妊娠期糖尿病母儿共同管理指南（2024版）》中，GDM孕妇推荐的运动频率和时长是怎样的？","domain":"医疗","ground_truth":"无运动禁忌证的GDM孕妇，每周至少运动5天，每天进行30分钟，或每周至少累积150分钟的中等强度运动","answer_type":"entity"}
+{"query":"根据《中国妊娠期糖尿病母儿共同管理指南（2024版）》，GDM孕妇的血糖控制目标是什么？","domain":"医疗","ground_truth":"空腹及餐前血糖＜5.3mmol/L、餐后1小时血糖＜7.8mmol/L或餐后2小时血糖＜6.7mmol/L，避免夜间血糖＜3.3mmol/L","answer_type":"entity"}
+{"query":"《中国妊娠期糖尿病母儿共同管理指南（2024版）》中，GDM孕妇产后复查糖耐量的时间是多久？","domain":"医疗","ground_truth":"产后4 - 12周","answer_type":"entity"}
+{"query":"导致重症感染患儿死亡的常见病因是什么？","domain":"医疗","ground_truth":"脓毒性休克 ","answer_type":"entity"}
+{"query":"根据共识，儿童脓毒性休克液体复苏的首剂液体选择是什么？推荐剂量是多少？","domain":"医疗","ground_truth":"首剂液体选择等渗晶体液，剂量为20ml/kg，于5-10分钟内静脉推注","answer_type":"entity"}
+{"query":"儿童脓毒性休克血管活性药物的首选药物是什么","domain":"医疗","ground_truth":"去甲肾上腺素","answer_type":"entity"}
+{"query":"《儿童脓毒性休克管理专家共识（2025）》中，对脓毒性休克患儿推荐的血糖控制目标是什么？","domain":"医疗","ground_truth":"维持血糖在7.8-10.0mmol/L之间，避免低血糖（<3.9mmol/L）","answer_type":"entity"}
+{"query":"引起儿童急性细菌性咽扁桃体炎最常见的病原体是什么？","domain":"医疗","ground_truth":"A族链球菌","answer_type":"entity"}
+{"query":"早期精准诊断及合理使用抗菌药物治疗A族链球菌咽扁桃体炎有哪些作用？","domain":"医疗","ground_truth":"缓解症状、缩短病程、预防化脓性和非化脓性并发症、降低疾病的传播风险，同时减少不恰当的抗菌药物使用","answer_type":"entity"}
+{"query":"根据共识，儿童A族链球菌咽扁桃体炎的首选抗菌药物是什么？疗程通常为多久？","domain":"医疗","ground_truth":"首选青霉素类药物，疗程通常为10天","answer_type":"entity"}
+{"query":"对青霉素过敏的儿童A族链球菌咽扁桃体炎患者，共识推荐使用什么药物替代治疗？","domain":"医疗","ground_truth":"可选用头孢菌素类（如头孢克洛）或大环内酯类（如阿奇霉素）药物","answer_type":"entity"}
+{"query":"儿童A族链球菌咽扁桃体炎患者出现哪些情况时提示可能存在化脓性并发症？","domain":"医疗","ground_truth":"持续高热、扁桃体周围脓肿、颈部淋巴结化脓等","answer_type":"entity"}
+{"query":"对于血清白蛋白水平足月儿<30g/L、早产儿<25g/L，且TSB水平≥换血阈值的新生儿高胆红素血症患者，指南是否推荐静脉输注白蛋白？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"达到干预阈值的新生儿高胆红素血症，指南推荐在光疗的同时可辅助使用什么药物？","domain":"医疗","ground_truth":"益生菌口服","answer_type":"entity"}
+{"query":"指南是否推荐预防性应用益生菌或益生元来减少新生儿高胆红素血症的发生？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"延迟性高间接胆红素血症中疑似或确诊UGT1A1基因变异相关的Ⅱ型Crigler-Najjar综合征及Gilbert综合征，指南推荐使用什么药物进行诊断试验及治疗？","domain":"医疗","ground_truth":"苯巴比妥口服","answer_type":"entity"}
+{"query":"儿童SMPP的抗感染治疗药物选择是否与年龄有关？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"8岁及以上儿童SMPP推荐使用哪种抗感染治疗药物？8岁以下患儿推荐什么？","domain":"医疗","ground_truth":"8岁及以上推荐四环素类药物，8岁以下推荐大环内酯类药物","answer_type":"entity"}
+{"query":"多发性骨髓瘤目前是否可以治愈？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"难治性CMV感染或CMV病首选什么药物治疗？","domain":"医疗","ground_truth":"马立巴韦","answer_type":"entity"}
+{"query":"慢性淋巴细胞白血病（CLL）/小淋巴细胞淋巴瘤（SLL）是否具有特殊的免疫表型？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"《中华医学会肺癌临床诊疗指南（2024版）》中提到的有更多药物选择的晚期非小细胞肺癌患者突变类型包括哪些？","domain":"医疗","ground_truth":"EGFR突变、EGFR 20ins、间变性淋巴瘤激酶（ALK）融合、MET14外显子跳突","answer_type":"entity"}
+{"query":"功能保留胃切除术（FPG）的主要术式包括哪些？","domain":"医疗","ground_truth":"缩小手术范围的术式（包括保留幽门的胃切除术、节段胃切除术、胃局部切除和内镜下切除）、近端胃切除（PG）和保留迷走神经的远端胃切除术","answer_type":"entity"}
+{"query":"近端胃切除（PG）手术后，近年来兴起的抗反流新型术式有哪些？","domain":"医疗","ground_truth":"管型胃“程式Giraffe吻合”、改良SOFY吻合、单肌瓣吻合、拱桥式吻合和隧道式吻合等","answer_type":"entity"}
+{"query":"《中国食管癌放射治疗指南（2024年版）》中，腺癌患者新辅助化疗/围手术期化疗的具体方案有哪些？","domain":"医疗","ground_truth":"FLOT方案（氟尿嘧啶 + 奥沙利铂 + 多西他赛）或ECF方案（表柔比星 + 顺铂 + 氟尿嘧啶）","answer_type":"entity"}
+{"query":"晚期乳腺癌是否可以通过治疗达到治愈？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"托拉塞米主要通过什么途径代谢？","domain":"医疗","ground_truth":"肝肾双通道","answer_type":"entity"}
+{"query":"呋塞米可能会引起哪些不良反应？","domain":"医疗","ground_truth":"低钾血症、耳毒性等","answer_type":"entity"}
+{"query":"托拉塞米适用于哪些疾病伴发的水肿？","domain":"医疗","ground_truth":"高血压、慢性充血性心力衰竭、肝硬化腹水及肾病综合征","answer_type":"entity"}
+{"query":"膀胱痉挛导致尿液从尿管旁漏出时，所使用的酒石酸托特罗定属于哪类药物？","domain":"医疗","ground_truth":"抗胆碱药物","answer_type":"entity"}
+{"query":"利那洛肽作为鸟苷酸环化酶 C 激动剂，主要用于治疗哪种疾病？","domain":"医疗","ground_truth":"成人便秘型肠易激综合征","answer_type":"entity"}
+{"query":"乳果糖治疗期间建议每日摄入多少液体？","domain":"医疗","ground_truth":"1.5~2L","answer_type":"entity"}
+{"query":"中国慢阻肺诊治指南和专家共识推荐泼尼松治疗慢阻肺急性加重的剂量及疗程是多少？","domain":"医疗","ground_truth":"30~40mg/d，疗程 5~7 天","answer_type":"entity"}
+{"query":"经鼻高流量鼻导管氧疗适用于哪种程度的呼吸衰竭？","domain":"医疗","ground_truth":"轻中度呼吸衰竭（100mmHg≤PaO2/FiO2<300mmHg，pH≥7.30）","answer_type":"entity"}
+{"query":"在过敏性休克抢救中，II、III 级严重过敏反应时肾上腺素的推荐注射方式是什么？","domain":"医疗","ground_truth":"肌肉注射","answer_type":"entity"}
+{"query":"肌肉注射肾上腺素抢救过敏性休克时，推荐的注射部位是哪里？","domain":"医疗","ground_truth":"大腿前外侧中部（股外侧肌）","answer_type":"entity"}
+{"query":"肌肉注射肾上腺素抢救过敏性休克时，剂量如何确定？","domain":"医疗","ground_truth":"0.01mg/kg，最大剂量：≥14 岁，0.5mg；＜14 岁，0.3mg。如果治疗无应答，应每过 5 - 15min 重复给药一次","answer_type":"entity"}
+{"query":"心衰根据病情可分为几期？其中哪些时期患者的心脏病变不可逆转？","domain":"医疗","ground_truth":"分为 A、B、C、D 四期，其中 C、D 期患者的心脏病变不可逆转","answer_type":"entity"}
+{"query":"血管紧张素受体拮抗剂（ARB）包括哪些常用的沙坦类降压药？","domain":"医疗","ground_truth":"缬沙坦、厄贝沙坦、氯沙坦、奥美沙坦、替米沙坦、坎地沙坦","answer_type":"entity"}
+{"query":"坎地沙坦酯是否为前体药？其半衰期是多久？","domain":"医疗","ground_truth":"是前体药，半衰期为 9h","answer_type":"entity"}
+{"query":"高血压合并糖尿病或慢性肾脏病时，指南是否推荐首先考虑使用 ACEI/ARB 类药物？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"心源性休克患者行超声心动图检查的主要评估内容有哪些？","domain":"医疗","ground_truth":"评估左室 / 右室功能；排除心包积液；排除严重瓣膜病；评估是否存在室间隔缺损、游离壁破裂等机械并发症","answer_type":"entity"}
+{"query":"心源性休克循环稳定步骤中，液体复苏的建议是什么？","domain":"医疗","ground_truth":"在无明显容量过负荷的情况下，可实施被动下肢抬高试验或快速输注等渗晶体液（3 - 4 ml/kg，最多 250 ml）；若出现肺淤血或其他容量过负荷迹象，应停止液体输注","answer_type":"entity"}
+{"query":"2019 ESC 指南中，妊娠中期和晚期室上性心动过速（SVT）患者，物理方法未能终止时，推荐的一线和二线药物分别是什么？","domain":"医疗","ground_truth":"一线药物为腺苷；二线药物为维拉帕米、地尔硫卓（其中维拉帕米比地尔硫卓安全）","answer_type":"entity"}
+{"query":"腺苷用于妊娠合并室上性心动过速（SVT）是否安全？有哪些相关证据支持？","domain":"医疗","ground_truth":"安全。被证实不引发低血压、对胎儿心率和活力无影响，还可通过直接脐带注射中止宫内胎儿的 SVT，在胎儿和孕妇中都安全且有效","answer_type":"entity"}
+{"query":"对于原因不明的老年消化道出血患者，为明确是否为海德综合征，应及时进行哪些检查？","domain":"医疗","ground_truth":"超声心动图和消化道内镜检查","answer_type":"entity"}
+{"query":"主动脉瓣狭窄的并发症中，与胃肠道相关的表现是什么？多见于哪些人群？","domain":"医疗","ground_truth":"部分病人有胃肠道血管发育不良，可合并胃肠道出血，多见于老年的瓣膜钙化病人，出血多为隐匿和慢性","answer_type":"entity"}
+{"query":"胆道出血的主要临床表现有哪些？","domain":"医疗","ground_truth":"上腹部绞痛、黑便、便血、呕血、巩膜染黄等","answer_type":"entity"}
+{"query":"对于原因不明的消化道出血，除海德综合征外，还需考虑排查哪些疾病？","domain":"医疗","ground_truth":"血液病、肿瘤、恒经动脉破裂出血、主动脉瘤破入消化道、门静脉高压、Budd-Chiari 综合征、胰腺肿瘤、胆道出血、憩室炎、钩虫病、结缔组织病等","answer_type":"entity"}
+{"query":"住院卧床患者起床后突发呼吸困难、胸痛或呼吸心跳骤停，需高度怀疑哪种疾病？","domain":"医疗","ground_truth":"肺动脉血栓栓塞","answer_type":"entity"}
+{"query":"机械通气患者突发氧合下降、呼吸困难，尤其在呛咳、吸痰后，需高度怀疑什么情况？紧急时可采取何种措施？","domain":"医疗","ground_truth":"气胸，可行试穿抽气","answer_type":"entity"}
+{"query":"老年患者的肠穿孔、急性腹膜炎是否一定会出现腹痛、腹肌紧张、腹部压痛、血象升高等表现？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"急性阑尾炎的症状出现次序通常是怎样的？","domain":"医疗","ground_truth":"脐周或中上腹部疼痛，恶心、呕吐，腹痛转移或集中在右下腹，右下腹明显压痛，体温升高，白细胞增高与核左移现象","answer_type":"entity"}
+{"query":"女性患者出现急性腹痛，除验 HCG 外，若伴有发热、白带增多、性状改变、异味，需考虑哪种疾病可能？","domain":"医疗","ground_truth":"急性盆腔炎","answer_type":"entity"}
+{"query":"高血糖高渗综合征的患者，应用胰岛素的前提是什么？","domain":"医疗","ground_truth":"充分容量复苏之后","answer_type":"entity"}
+{"query":"有糖尿病史的不明原因昏迷者，城市患者和农村患者首先分别应排除哪些情况？","domain":"医疗","ground_truth":"城市患者首先排除低血糖；农村患者首先排除高渗性昏迷或酮症酸中毒（前者多因长期服药，后者常因未用药）","answer_type":"entity"}
+{"query":"识别心绞痛或心梗前兆的16字“救命真言”是什么？具体含义是什么？","domain":"医疗","ground_truth":"16字“救命真言”为：劳力诱发，休息缓解，服药缓解，2分以上。含义：劳力诱发指劳累（如走路、快步走等）时疼痛诱发或加重；休息缓解指出现疼痛后休息可缓解；服药缓解指服用硝酸甘油或速效救心丸可缓解；2分以上指疼痛持续两分钟以上","answer_type":"entity"}
+{"query":"硝酸甘油作为冠心病患者的首选急救药，其正确使用方法是什么？","domain":"医疗","ground_truth":"舌下含服，可稍微嚼碎，2~3分钟起效，作用持续20~30分钟；推荐坐着含服；含服一片5分钟后未缓解，可再含服一片，15分钟内含服3片仍不缓解，需怀疑心梗，立即拨打急救电话","answer_type":"entity"}
+{"query":"速效救心丸的正确使用方法是什么？","domain":"医疗","ground_truth":"心绞痛急性发作时一次性舌下含服10~15粒，如无效10分钟后可再含服一次，超过15分钟未缓解需及时拨打120；推荐坐着含服；作为“气滞血瘀型”冠心病患者日常用药时，每次含服4~6粒，一日3次","answer_type":"entity"}
+{"query":"心梗发生时，硝酸甘油和速效救心丸是否有效？此时可考虑使用哪种药物？","domain":"医疗","ground_truth":"心梗时硝酸甘油和速效救心丸作用不大；可考虑将阿司匹林肠溶片300mg嚼碎咽下（需遵急救人员指导）","answer_type":"entity"}
+{"query":"心梗发作前可能出现的征兆有哪些？","domain":"医疗","ground_truth":"胸口有被胶带缠绕或束缚感；双耳突聋；牙痛；头晕；脚底针刺样疼痛；肩胛骨疼；左上肢无力；左腿酸麻胀疼；头疼；突然变懒、乏力；脐周疼痛；睁不开眼睛","answer_type":"entity"}
+{"query":"腺病毒感染的检测方法包括哪些？","domain":"医疗","ground_truth":"腺病毒抗原快检、腺病毒核酸检测","answer_type":"entity"}
+{"query":"腺病毒感染患者在什么情况下可考虑不使用抗生素？","domain":"医疗","ground_truth":"明确腺病毒感染，患儿精神状态良好，无明显合并细菌感染证据（如肺部无特殊异常、无其他细菌感染征象）时，可考虑不使用抗生素","answer_type":"entity"}
+{"query":"宫角妊娠的诊断标准是什么？","domain":"医疗","ground_truth":"1. 阴道出血，腹痛伴有子宫不对称性增大，继而流产或子宫破裂；2. 直视下子宫角一侧扩大伴有圆韧带外侧移位；3. 胎盘滞留于子宫角。以上 3 条符合 1 条即可诊断，其中后 2 条需手术后明确，早期临床诊断较困难","answer_type":"entity"}
+{"query":"利妥昔单抗治疗类风湿关节炎时需监测哪些严重不良反应？","domain":"医疗","ground_truth":"进行性多灶性白质脑病（PML，发生率0.05%）、乙型肝炎再激活（高危患者发生率12%）、间质性肺炎（需定期肺功能检测）、输液反应（预处理需用抗组胺药+糖皮质激素）","answer_type":"entity"}
+{"query":"HPV 感染的诊断方法包括哪些？","domain":"医疗","ground_truth":"细胞学检查（如宫颈脱落细胞学检查 TCT）、HPV-DNA 分型检测（检测方法有二代杂交捕获技术、酶切信号放大技术、荧光 PCR 技术及 RNA 逆转录扩增法）、阴道镜下病理活检","answer_type":"entity"}
+{"query":"过敏性休克分为几级？各级的症状表现是什么？","domain":"医疗","ground_truth":"分为四级。I 级：同时具备下述 a、b 表现，且无心血管系统或呼吸系统症状、体征。a. 皮肤黏膜组织症状：如全身性荨麻疹、瘙痒潮红、唇、舌、悬雍垂肿胀；b. 持续存在的胃肠系统症状：如恶心、腹痛、呕吐。II、III 级：出现下述 a 或 b 表现。a. 呼吸系统症状：声嘶、咳嗽、胸闷、呼吸困难、支气管痉挛、喘鸣、PEF 下降、SpO2≤92%；b. 血压降低：收缩压 < 90mmHg 或较基础血压值降低超过 30%；或出现终末器官功能障碍相关症状，如苍白、头晕、出汗、一过性意识丧失、肌张力减退，心动过速。IV 级：出现以下任一症状：发绀、收缩压 < 80mmHg 或较基础血压值降低超过 40%，意识丧失嗜睡、心动过速、严重的支气管痉挛和 / 或喉头水肿，尿失禁或其他严重的心肺症状、呼吸心跳暂停","answer_type":"entity"}
+{"query":"外用糖皮质激素滥用可能导致皮肤萎缩吗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"痤疮是否属于毛囊皮脂腺单位的慢性炎症性皮肤病？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"痤疮的常见外用治疗药物有哪些？","domain":"医疗","ground_truth":"外用维A酸类药物（如维A酸乳膏、阿达帕林凝胶、他扎罗汀乳膏）、过氧苯甲酰、外用抗生素（如克林霉素、夫西地酸、红霉素）、壬二酸、水杨酸等","answer_type":"entity"}
+{"query":"痤疮后萎缩性疤痕分为哪些类型？","domain":"医疗","ground_truth":"冰锥疤痕（狭窄、深在，小于2mm，延伸到真皮）、箱车疤痕（圆形或卵圆形，边缘锋利，大小1.5～4mm）、滚轮疤痕（宽于冰锥疤痕，4～5mm，呈波浪样深度模式）","answer_type":"entity"}
+{"query":"口服异维A酸适用于结节性和囊肿性痤疮吗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"荨麻疹的主要治疗药物有哪些？","domain":"医疗","ground_truth":"抗组胺药物（如氯雷他定、西替利嗪等第二代药物，扑尔敏、酮替芬等第一代药物）、糖皮质激素（如泼尼松、地塞米松等，用于严重病例）、免疫抑制剂（如环孢素、甲氨蝶呤等，用于自身免疫性荨麻疹）、其他药物（如葡萄糖酸钙、维生素C等，常与抗组胺药联用）","answer_type":"entity"}
+{"query":"荨麻疹的常见病因有哪些？","domain":"医疗","ground_truth":"药物（如青霉素、头孢）、食物及食品添加剂（如鱼、虾、海鲜）、吸入物（如花粉、动物皮毛）、感染因素（如细菌、病毒、寄生虫感染）、物理因素（如机械刺激、冷、热、日光）、精神紧张及内分泌改变、内科疾病（如肿瘤、甲亢、肝病、自身免疫性疾病）、遗传因素等","answer_type":"entity"}
+{"query":"汗疱疹是否属于特殊类型的湿疹？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"汗疱疹未及时治疗可能导致感染风险增加吗？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"在我国，BMI≥28kg/m²是否被定义为肥胖症？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"肥胖症的主要类型有哪些？","domain":"医疗","ground_truth":"根据病因可分为原发性肥胖症（单纯性肥胖症，与遗传、长期进食过量及运动不足有关，占比99%）和继发性肥胖症（由明确疾病所致，如皮质醇增多症、生长激素缺乏症等，占比1%）；根据脂肪积聚部位可分为腹型肥胖、皮下脂肪型肥胖及混合型","answer_type":"entity"}
+{"query":"奥利司他的常见副作用有哪些？","domain":"医疗","ground_truth":"脂溶性维生素（维生素A/E/K等）吸收减少、脂肪泻、大便次数增多、大便紧急感、大便失禁、胃肠胀气等","answer_type":"entity"}
+{"query":"痛风目前可以根治吗？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"冠心病具有典型的遗传性吗？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"心脏搭桥术的主要作用是什么？","domain":"医疗","ground_truth":"从患者身体其他部位取血管或血管替代品，将狭窄冠状动脉的远端和主动脉连接，让血液绕过狭窄部分到达缺血部位，改善心肌血液供应，缓解心绞痛症状、改善心脏功能、提高生活质量及延长寿命","answer_type":"entity"}
+{"query":"高血压是否属于常见的慢性疾病？","domain":"医疗","ground_truth":true,"answer_type":"boolean"}
+{"query":"原发性高血压可以根治吗？","domain":"医疗","ground_truth":false,"answer_type":"boolean"}
+{"query":"难治性高血压的诊断标准是什么？","domain":"医疗","ground_truth":"在生活方式改善基础上，规律、足量服用3种作用机制不同的降压药（其中一种是利尿剂）至少4周后，血压仍不能达标（＜140/90mmHg），或至少需要4种药物才能使血压达标","answer_type":"entity"}
