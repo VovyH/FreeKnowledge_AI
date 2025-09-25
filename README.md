@@ -128,6 +128,7 @@ Example 2:
  "answer_type": "entity"
 }
 ```
+**Note: Data in medical.json and academic.json !!**
 
 ##### 5.3 Result:
 **Medical Dataset:**
