@@ -4,12 +4,16 @@
 ![GitHub stars](https://img.shields.io/github/stars/VovyH/FreeKnowledge_AI)
 ![PyPI - License](https://img.shields.io/pypi/l/FreeKnowledge-AI?color=purple)
 ![PyPI](https://img.shields.io/badge/PyPI-绿色??color=green)
+[![PyPI - Downloads](https://img.shields.io/pepy/dt/freeknowledge-ai?label=Total%20Downloads&color=orange)](https://pepy.tech/project/freeknowledge-ai)
 ![书生·铺语大模型](https://img.shields.io/badge/书生大模型-蓝色?color=blue)
 
+😘FreeKnowledge在PyPI的总下载量已经突破 3k!
 ✨An agent that provides **free** and **flexible** access to search external knowledge！！(感谢上海人工智能实验室书生大模型实训营的支持)必须用Intern!!
 <div align="center">
      <img src="https://github.com/user-attachments/assets/df699fb5-8682-4b5a-97d4-c66c45a324af"/>
 </div>
+
+
 
 
 ### 1. 📖Introduction
@@ -182,6 +186,10 @@ pip install mcp
 
 ### 7. 👇Citation
 If you think this project is useful to you, please click star and cite this project。
+<div align="center">
+     <img src="https://github.com/user-attachments/assets/4da2fda4-ea37-4791-ad28-c2f21cd4cf10"/>
+</div>
+
 
 ```bibtex
 @misc{Wu2024FreeKnowledge_AI,
