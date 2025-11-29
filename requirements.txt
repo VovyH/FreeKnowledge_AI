@@ -7,3 +7,5 @@ mcp==1.13.0
 pdfplumber==0.11.7
 Requests==2.32.4
 setuptools==80.9.0
+packaging==23.2
+
