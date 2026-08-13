@@ -199,4 +199,7 @@ If you think this project is useful to you, please click star and cite this proj
     url=[{<url id="cuqmhcd43355nsg2o9dg" type="url" status="parsed" title="GitHub -VovyH/FreeKnowledge_AI" wc="6723">https://github.com/VovyH/FreeKnowledge_AI</url>}](https://github.com/VovyH/FreeKnowledge_AI/),
 }
 ```
-  
+
+
+### 8. License
+Apache 2.0 — see the [LICENSE](https://github.com/mem0ai/mem0/blob/main/LICENSE) file for details.
